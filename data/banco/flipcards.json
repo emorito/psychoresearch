@@ -1,142 +1,212 @@
 [
- {
-  "id": "m08-fc-0001",
-  "modulo_id": "u08",
-  "frente": "¿Qué es la población en investigación?",
-  "dorso": "Es el conjunto total de elementos o unidades de análisis que cumplen con criterios definidos para un estudio.",
-  "tag": "Población y universo"
- },
- {
-  "id": "m08-fc-0002",
-  "modulo_id": "u08",
-  "frente": "¿Qué es una muestra?",
-  "dorso": "Es un subconjunto de la población seleccionado para realizar la investigación.",
-  "tag": "Muestra"
- },
- {
-  "id": "m08-fc-0003",
-  "modulo_id": "u08",
-  "frente": "Relación entre población y muestra",
-  "dorso": "La muestra debe representar adecuadamente a la población de la cual se extrae.",
-  "tag": "Tipos de muestreo"
- },
- {
-  "id": "m08-fc-0004",
-  "modulo_id": "u08",
-  "frente": "¿Qué es el muestreo?",
-  "dorso": "Es el procedimiento mediante el cual se seleccionan las unidades de análisis de la población.",
-  "tag": "Corpus y unidades"
- },
- {
-  "id": "m08-fc-0005",
-  "modulo_id": "u08",
-  "frente": "Muestreo probabilístico",
-  "dorso": "Todos los elementos de la población tienen una probabilidad conocida y distinta de cero de ser seleccionados.",
-  "tag": "Población y universo"
- },
- {
-  "id": "m08-fc-0006",
-  "modulo_id": "u08",
-  "frente": "Muestreo no probabilístico",
-  "dorso": "La selección de unidades no se basa en probabilidades conocidas.",
-  "tag": "Muestra"
- },
- {
-  "id": "m08-fc-0007",
-  "modulo_id": "u08",
-  "frente": "Ventaja del muestreo probabilístico",
-  "dorso": "Permite realizar inferencias más sólidas sobre la población.",
-  "tag": "Tipos de muestreo"
- },
- {
-  "id": "m08-fc-0008",
-  "modulo_id": "u08",
-  "frente": "Limitación del muestreo no probabilístico",
-  "dorso": "Reduce la posibilidad de generalizar los resultados.",
-  "tag": "Corpus y unidades"
- },
- {
-  "id": "m08-fc-0009",
-  "modulo_id": "u08",
-  "frente": "Error muestral",
-  "dorso": "Es la diferencia entre las características de la muestra y las de la población.",
-  "tag": "Población y universo"
- },
- {
-  "id": "m08-fc-0010",
-  "modulo_id": "u08",
-  "frente": "Error frecuente en muestreo",
-  "dorso": "Confundir tamaño de muestra con representatividad.",
-  "tag": "Muestra"
- },
- {
-  "id": "m09-fc-0001",
-  "modulo_id": "u04",
-  "frente": "¿Qué es un instrumento de medición?",
-  "dorso": "Es un conjunto estructurado de ítems o procedimientos diseñado para medir variables previamente definidas.",
-  "tag": "Técnicas de recolección"
- },
- {
-  "id": "m09-fc-0002",
-  "modulo_id": "u04",
-  "frente": "Relación entre variables e instrumentos",
-  "dorso": "Los instrumentos se construyen a partir de variables y sus indicadores, no al revés.",
-  "tag": "Instrumentos"
- },
- {
-  "id": "m09-fc-0003",
-  "modulo_id": "u04",
-  "frente": "Primer paso en la construcción de un instrumento",
-  "dorso": "Definir claramente el constructo y las variables a medir.",
-  "tag": "Validez y confiabilidad"
- },
- {
-  "id": "m09-fc-0004",
-  "modulo_id": "u04",
-  "frente": "Importancia de la operacionalización",
-  "dorso": "Permite traducir conceptos abstractos en indicadores observables y medibles.",
-  "tag": "Ética e integridad"
- },
- {
-  "id": "m09-fc-0005",
-  "modulo_id": "u04",
-  "frente": "¿Qué es un ítem?",
-  "dorso": "Es una unidad básica de medición que representa un indicador de una variable.",
-  "tag": "Técnicas de recolección"
- },
- {
-  "id": "m09-fc-0006",
-  "modulo_id": "u04",
-  "frente": "Criterio de claridad en los ítems",
-  "dorso": "Los ítems deben ser comprensibles, precisos y adecuados al nivel del respondiente.",
-  "tag": "Instrumentos"
- },
- {
-  "id": "m09-fc-0007",
-  "modulo_id": "u04",
-  "frente": "Error frecuente en la construcción de ítems",
-  "dorso": "Redactar ítems ambiguos, dobles o con juicios implícitos.",
-  "tag": "Validez y confiabilidad"
- },
- {
-  "id": "m09-fc-0008",
-  "modulo_id": "u04",
-  "frente": "Función del pilotaje",
-  "dorso": "Detectar problemas de comprensión, redacción y funcionamiento del instrumento.",
-  "tag": "Ética e integridad"
- },
- {
-  "id": "m09-fc-0009",
-  "modulo_id": "u04",
-  "frente": "Relación entre instrumento y análisis de datos",
-  "dorso": "La calidad del instrumento condiciona la calidad de los datos y del análisis.",
-  "tag": "Técnicas de recolección"
- },
- {
-  "id": "m09-fc-0010",
-  "modulo_id": "u04",
-  "frente": "Construcción de instrumentos y validez",
-  "dorso": "Un instrumento mal construido compromete la validez de los resultados.",
-  "tag": "Instrumentos"
- }
+  {
+    "id": "m08-fc-0001",
+    "modulo_id": "u08",
+    "frente": "¿Qué es la población en investigación?",
+    "dorso": "Es el conjunto total de elementos o unidades de análisis que cumplen con criterios definidos para un estudio.",
+    "tag": "Población y universo"
+  },
+  {
+    "id": "m08-fc-0002",
+    "modulo_id": "u08",
+    "frente": "¿Qué es una muestra?",
+    "dorso": "Es un subconjunto de la población seleccionado para realizar la investigación.",
+    "tag": "Muestra"
+  },
+  {
+    "id": "m08-fc-0003",
+    "modulo_id": "u08",
+    "frente": "Relación entre población y muestra",
+    "dorso": "La muestra debe representar adecuadamente a la población de la cual se extrae.",
+    "tag": "Tipos de muestreo"
+  },
+  {
+    "id": "m08-fc-0004",
+    "modulo_id": "u08",
+    "frente": "¿Qué es el muestreo?",
+    "dorso": "Es el procedimiento mediante el cual se seleccionan las unidades de análisis de la población.",
+    "tag": "Corpus y unidades"
+  },
+  {
+    "id": "m08-fc-0005",
+    "modulo_id": "u08",
+    "frente": "Muestreo probabilístico",
+    "dorso": "Todos los elementos de la población tienen una probabilidad conocida y distinta de cero de ser seleccionados.",
+    "tag": "Población y universo"
+  },
+  {
+    "id": "m08-fc-0006",
+    "modulo_id": "u08",
+    "frente": "Muestreo no probabilístico",
+    "dorso": "La selección de unidades no se basa en probabilidades conocidas.",
+    "tag": "Muestra"
+  },
+  {
+    "id": "m08-fc-0007",
+    "modulo_id": "u08",
+    "frente": "Ventaja del muestreo probabilístico",
+    "dorso": "Permite realizar inferencias más sólidas sobre la población.",
+    "tag": "Tipos de muestreo"
+  },
+  {
+    "id": "m08-fc-0008",
+    "modulo_id": "u08",
+    "frente": "Limitación del muestreo no probabilístico",
+    "dorso": "Reduce la posibilidad de generalizar los resultados.",
+    "tag": "Corpus y unidades"
+  },
+  {
+    "id": "m08-fc-0009",
+    "modulo_id": "u08",
+    "frente": "Error muestral",
+    "dorso": "Es la diferencia entre las características de la muestra y las de la población.",
+    "tag": "Población y universo"
+  },
+  {
+    "id": "m08-fc-0010",
+    "modulo_id": "u08",
+    "frente": "Error frecuente en muestreo",
+    "dorso": "Confundir tamaño de muestra con representatividad.",
+    "tag": "Muestra"
+  },
+  {
+    "id": "m09-fc-0001",
+    "modulo_id": "u04",
+    "frente": "¿Qué es un instrumento de medición?",
+    "dorso": "Es un conjunto estructurado de ítems o procedimientos diseñado para medir variables previamente definidas.",
+    "tag": "Técnicas de recolección"
+  },
+  {
+    "id": "m09-fc-0002",
+    "modulo_id": "u04",
+    "frente": "Relación entre variables e instrumentos",
+    "dorso": "Los instrumentos se construyen a partir de variables y sus indicadores, no al revés.",
+    "tag": "Instrumentos"
+  },
+  {
+    "id": "m09-fc-0003",
+    "modulo_id": "u04",
+    "frente": "Primer paso en la construcción de un instrumento",
+    "dorso": "Definir claramente el constructo y las variables a medir.",
+    "tag": "Validez y confiabilidad"
+  },
+  {
+    "id": "m09-fc-0004",
+    "modulo_id": "u04",
+    "frente": "Importancia de la operacionalización",
+    "dorso": "Permite traducir conceptos abstractos en indicadores observables y medibles.",
+    "tag": "Ética e integridad"
+  },
+  {
+    "id": "m09-fc-0005",
+    "modulo_id": "u04",
+    "frente": "¿Qué es un ítem?",
+    "dorso": "Es una unidad básica de medición que representa un indicador de una variable.",
+    "tag": "Técnicas de recolección"
+  },
+  {
+    "id": "m09-fc-0006",
+    "modulo_id": "u04",
+    "frente": "Criterio de claridad en los ítems",
+    "dorso": "Los ítems deben ser comprensibles, precisos y adecuados al nivel del respondiente.",
+    "tag": "Instrumentos"
+  },
+  {
+    "id": "m09-fc-0007",
+    "modulo_id": "u04",
+    "frente": "Error frecuente en la construcción de ítems",
+    "dorso": "Redactar ítems ambiguos, dobles o con juicios implícitos.",
+    "tag": "Validez y confiabilidad"
+  },
+  {
+    "id": "m09-fc-0008",
+    "modulo_id": "u04",
+    "frente": "Función del pilotaje",
+    "dorso": "Detectar problemas de comprensión, redacción y funcionamiento del instrumento.",
+    "tag": "Ética e integridad"
+  },
+  {
+    "id": "m09-fc-0009",
+    "modulo_id": "u04",
+    "frente": "Relación entre instrumento y análisis de datos",
+    "dorso": "La calidad del instrumento condiciona la calidad de los datos y del análisis.",
+    "tag": "Técnicas de recolección"
+  },
+  {
+    "id": "m09-fc-0010",
+    "modulo_id": "u04",
+    "frente": "Construcción de instrumentos y validez",
+    "dorso": "Un instrumento mal construido compromete la validez de los resultados.",
+    "tag": "Instrumentos"
+  },
+  {
+    "id": "u05-fc-0001",
+    "modulo_id": "u05",
+    "frente": "¿Qué representa «X» en la notación de Campbell y Stanley?",
+    "dorso": "La exposición de un grupo a una variable independiente activa (tratamiento, intervención o manipulación experimental).",
+    "tag": "Notación X-O-R"
+  },
+  {
+    "id": "u05-fc-0002",
+    "modulo_id": "u05",
+    "frente": "¿Qué representa «O» en la notación de Campbell y Stanley?",
+    "dorso": "La observación o medición de la variable dependiente mediante un instrumento o procedimiento evaluativo.",
+    "tag": "Notación X-O-R"
+  },
+  {
+    "id": "u05-fc-0003",
+    "modulo_id": "u05",
+    "frente": "¿Qué representa «R» en un diseño experimental?",
+    "dorso": "La asignación aleatoria (*randomization*) de los participantes a las distintas condiciones experimentales.",
+    "tag": "Diseños experimentales"
+  },
+  {
+    "id": "u05-fc-0004",
+    "modulo_id": "u05",
+    "frente": "¿Cuáles son los tres criterios del triángulo de Kish (1987)?",
+    "dorso": "Control (experimentos), Representación (encuestas probabilísticas) y Realismo (estudios de campo observacionales).",
+    "tag": "Criterios de Kish"
+  },
+  {
+    "id": "u05-fc-0005",
+    "modulo_id": "u05",
+    "frente": "¿Qué postula Kish sobre el «supercriterio» metodológico?",
+    "dorso": "No existe un supercriterio: ningún diseño es universalmente superior; cada uno asume renuncias legítimas según la pregunta.",
+    "tag": "Criterios de Kish"
+  },
+  {
+    "id": "u05-fc-0006",
+    "modulo_id": "u05",
+    "frente": "¿Qué es la amenaza de «Historia»?",
+    "dorso": "Acontecimientos externos al tratamiento ocurridos entre mediciones que pueden explicar el cambio en la variable dependiente.",
+    "tag": "Amenazas validez interna"
+  },
+  {
+    "id": "u05-fc-0007",
+    "modulo_id": "u05",
+    "frente": "¿Qué es la amenaza de «Maduración»?",
+    "dorso": "Procesos biológicos o psicológicos propios del paso del tiempo (crecimiento, fatiga, recuperación espontánea) en los participantes.",
+    "tag": "Amenazas validez interna"
+  },
+  {
+    "id": "u05-fc-0008",
+    "modulo_id": "u05",
+    "frente": "¿Qué es la «Regresión estadística a la media»?",
+    "dorso": "La tendencia de puntajes extremos a acercarse a la media en una segunda medición debido al error aleatorio de medida.",
+    "tag": "Amenazas validez interna"
+  },
+  {
+    "id": "u05-fc-0009",
+    "modulo_id": "u05",
+    "frente": "¿Por qué el emparejamiento no sustituye a la asignación aleatoria (R)?",
+    "dorso": "Porque solo iguala en variables observadas y conocidas, dejando abiertas las no observadas y generando regresión diferencial.",
+    "tag": "Diseños cuasiexperimentales"
+  },
+  {
+    "id": "u05-fc-0010",
+    "modulo_id": "u05",
+    "frente": "¿Qué es un diseño cuasiexperimental de grupo control no equivalente?",
+    "dorso": "Compara un grupo intervenido contra uno de control intacto con pretest y postest, pero sin asignación aleatoria (O₁ X O₂ / - - - / O₁ O₂).",
+    "tag": "Diseños cuasiexperimentales"
+  }
 ]

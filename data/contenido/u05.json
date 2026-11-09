@@ -1,16 +1,376 @@
 {
- "modulo_id": "u05",
- "capsula": {
-  "title": "Diseño experimental y cuasiexperimental",
-  "subtitle": "Unidad en preparación",
-  "blocks": [
-   {
-    "type": "highlight",
-    "title": "En preparación",
-    "text": "Esta unidad se está redactando a partir de las obras de referencia: Campbell y Stanley; Shadish, Cook y Campbell; Kish, *Statistical Design for Research*; McGuigan."
-   }
+  "modulo_id": "u05",
+  "origen": "borrador_ia",
+  "capsula": {
+    "title": "Diseño experimental y cuasiexperimental: decidir, dibujar y auditar",
+    "subtitle": "Inferencia causal, notación X · O · R y control de amenazas a la validez interna",
+    "blocks": [
+      {
+        "type": "highlight",
+        "title": "Diseñar es ordenar las variables",
+        "text": "En toda investigación empírica intervienen variables predictoras o explicativas (X), variables explicadas (Y) y variables extrañas. El objetivo central del diseño es aislar el impacto de X sobre Y, asegurando que las variables extrañas queden **controladas**, **aleatorizadas** o explícitamente reconocidas. Diseñar no es elegir una etiqueta taxonómica para que el proyecto suene prestigioso: es vaciar la caja de las variables sueltas que amenazan tu inferencia causal."
+      },
+      {
+        "type": "table",
+        "title": "El triángulo de decisiones de Kish (1987)",
+        "headers": [
+          "Criterio de Kish",
+          "Qué prioriza",
+          "Diseño típico que lo logra",
+          "Qué suele sacrificar"
+        ],
+        "rows": [
+          [
+            "**Control**",
+            "Aislar la relación causal y minimizar la varianza de variables extrañas.",
+            "Experimento de laboratorio con asignación aleatoria (R).",
+            "Realismo del contexto y representatividad de la muestra."
+          ],
+          [
+            "**Representación**",
+            "Generalizar estimaciones a una población objetivo definida con precisión.",
+            "Encuesta con muestreo probabilístico desde un marco muestral.",
+            "Control causal (no hay manipulación de variables ni asignación al azar)."
+          ],
+          [
+            "**Realismo**",
+            "Observar el fenómeno en su entorno natural y con validez ecológica.",
+            "Estudio observacional o de campo en contextos institucionales o comunitarios.",
+            "Control riguroso de factores intervinientes y asignación al azar."
+          ]
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "No existe un supercriterio (Kish, 1987)",
+        "text": "La validez interna no ocupa la cima de una jerarquía sagrada ni las encuestas y observaciones son «experimentos defectuosos». Cada diseño responde a una renuncia deliberada y justificada según el problema de investigación. Quien opta por una encuesta con alta representación asume que renuncia a la inferencia causal directa; quien monta un experimento de laboratorio rigurosamente controlado asume que sus hallazgos requerirán comprobación en escenarios ecológicos reales."
+      },
+      {
+        "type": "table",
+        "title": "Notación estructural X · O · R (Campbell y Stanley, 1966)",
+        "headers": [
+          "Símbolo / Convención",
+          "Significado metodológico",
+          "Función en el esquema"
+        ],
+        "rows": [
+          [
+            "**X**",
+            "Tratamiento, intervención o manipulación.",
+            "Representa la variable independiente activa que introduce el investigador."
+          ],
+          [
+            "**O**",
+            "Observación o medición de la variable dependiente.",
+            "Los subíndices ($O_1, O_2, \\dots$) señalan el orden temporal de las medidas."
+          ],
+          [
+            "**R**",
+            "Asignación aleatoria (*Randomization*).",
+            "Garantiza equivalencia probabilística inicial entre grupos en variables conocidas y desconocidas."
+          ],
+          [
+            "**- - - - -**",
+            "Línea de discontinuidad o trazos discontinuos.",
+            "Indica que los grupos comparados son no equivalentes (sin asignación aleatoria)."
+          ],
+          [
+            "**Línea horizontal**",
+            "Dimensión temporal (izquierda a derecha).",
+            "Refleja la secuencia cronológica estricta de las acciones y evaluaciones."
+          ],
+          [
+            "**Filas paralelas**",
+            "Condiciones o grupos simultáneos.",
+            "Representa la comparación concurrente entre grupos de participantes en el mismo período."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Diseños preexperimentales: por qué no permiten inferencias causales",
+        "items": [
+          {
+            "badge": "X   O",
+            "title": "Estudio de caso con una sola medición",
+            "text": "Se aplica un programa y luego se mide. Al carecer de punto de partida (pretest) y de grupo de comparación, es imposible saber si el nivel observado ya existía o fue causado por factores ajenos."
+          },
+          {
+            "badge": "O₁   X   O₂",
+            "title": "Pretest-postest de un solo grupo",
+            "text": "Existe comparación temporal antes-después, pero queda completamente abierta a hipótesis rivales: historia contemporánea, maduración espontánea, reactividad de la prueba previa e instrumentación."
+          },
+          {
+            "badge": "X   O₁ / - - - / O₂",
+            "title": "Comparación con grupo estático",
+            "text": "Compara a quienes recibieron la intervención contra un grupo sin intervención, pero sin medición previa ni asignación al azar. El sesgo de selección impide saber si la diferencia final se debe al tratamiento o a desigualdades previas."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Diseños cuasiexperimentales: inferencia sin aleatorización completa",
+        "items": [
+          {
+            "badge": "O₁ X O₂ / - - - / O₁ O₂",
+            "title": "Grupo control no equivalente",
+            "text": "Incorpora pretest y grupo de comparación intacto (aulas, servicios asistenciales). Controla historia y maduración genéricas, pero deja abierta la interacción entre selección y maduración o selección e historia."
+          },
+          {
+            "badge": "O₁ O₂ O₃ X O₄ O₅ O₆",
+            "title": "Series temporales interrumpidas",
+            "text": "Múltiples observaciones repetidas antes y después de la intervención. Permite evaluar la tendencia y estabilidad previas, descartando maduración y regresión a la media, aunque permanece vulnerable a eventos históricos coincidentes con X."
+          },
+          {
+            "badge": "Punto de corte",
+            "title": "Discontinuidad en la regresión",
+            "text": "Asigna a los participantes según superen o no un umbral continuo (p. ej., nivel de necesidad o gravedad clínica). Permite estimar el efecto causal local en torno al umbral con alta solidez matemática."
+          },
+          {
+            "badge": "Advertencia",
+            "title": "El emparejamiento no sustituye a R",
+            "text": "Emparejar participantes por variables observables no equivale a la asignación aleatoria: no controla las variables no observadas y con frecuencia induce regresión estadística espuria (Campbell y Stanley)."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Diseños experimentales verdaderos: el poder del control aleatorizado",
+        "items": [
+          {
+            "badge": "R O₁ X O₂ / R O₃ O₄",
+            "title": "Pretest-postest con grupo control",
+            "text": "Diseño clásico por excelencia. La asignación aleatoria (R) asegura que las diferencias iniciales sean atribuibles al azar, controlando historia, maduración, prueba e instrumentación en ambos grupos de forma idéntica."
+          },
+          {
+            "badge": "R X O₁ / R O₂",
+            "title": "Solo postest con grupo control",
+            "text": "Omite la medición inicial cuando el pretest puede interactuar con el tratamiento (sensibilización) o no resulta viable. Si la aleatorización fue adecuada, la equivalencia inicial de los grupos está garantizada probabilísticamente."
+          },
+          {
+            "badge": "4 Grupos",
+            "title": "Diseño de cuatro grupos de Solomon",
+            "text": "Combina los dos diseños anteriores (dos grupos con pretest y dos sin él). Permite estimar empíricamente tanto el efecto principal del pretest como su potencial interacción con la intervención X."
+          },
+          {
+            "badge": "Factoriales",
+            "title": "Diseños factoriales (p. ej., 2 × 2)",
+            "text": "Manipulan simultáneamente dos o más variables independientes. Permiten evaluar los efectos principales de cada factor y, fundamentalmente, su efecto de interacción (si el impacto de X₁ depende del nivel de X₂)."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Auditoría de amenazas a la validez interna (Campbell y Stanley; Shadish et al.)",
+        "headers": [
+          "Amenaza",
+          "Mecanismo que confunde el efecto",
+          "Diseño que la deja abierta",
+          "Cómo se neutraliza"
+        ],
+        "rows": [
+          [
+            "**Historia**",
+            "Acontecimientos externos imprevistos ocurridos entre pretest y postest que alteran la variable dependiente.",
+            "Grupo único ($O_1 \\ X \\ O_2$).",
+            "Grupo de control contemporáneo evaluado en el mismo período."
+          ],
+          [
+            "**Maduración**",
+            "Procesos biológicos o psicológicos propios del paso del tiempo (crecimiento, fatiga, recuperación espontánea).",
+            "Grupo único sin control.",
+            "Grupo de control paralelo sometido al mismo lapso temporal."
+          ],
+          [
+            "**Efecto de la prueba**",
+            "La administración previa del instrumento altera la puntuación en la segunda evaluación (aprendizaje o sensibilización).",
+            "Grupo único pre-post.",
+            "Diseño de solo postest o grupos de Solomon."
+          ],
+          [
+            "**Instrumentación**",
+            "Cambios en los criterios de los evaluadores, calibración o fatiga entre la primera y segunda medición.",
+            "Cualquier diseño sin estandarización ni cegamiento.",
+            "Estandarización de protocolos, entrenamiento a ciegas y evaluación de confiabilidad interjueces."
+          ],
+          [
+            "**Regresión estadística**",
+            "Participantes seleccionados por puntajes extremos tienden a puntuar más cerca de la media en la segunda medida por error aleatorio.",
+            "Selección por puntajes extremos sin control.",
+            "Asignación aleatoria (R) o grupo de control con puntajes basales igualmente extremos."
+          ],
+          [
+            "**Selección**",
+            "Diferencias sistemáticas preexistentes entre los grupos comparados antes de aplicar el tratamiento.",
+            "Grupos intactos o autoseleccionados.",
+            "Asignación aleatoria (R) a las condiciones experimentales."
+          ],
+          [
+            "**Atrición / Mortalidad**",
+            "Pérdida diferencial de participantes entre grupos durante el curso de la intervención.",
+            "Estudios longitudinales o intervenciones prolongadas.",
+            "Análisis por intención de tratar (ITT) y reporte transparente del flujo de participantes."
+          ]
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "Tensión en el canon: validez interna frente a la complejidad social",
+        "text": "Existe una discrepancia profunda entre las obras de referencia. Campbell y Stanley sitúan la validez interna como el requisito metodológico indispensable: sin ella, cualquier conclusión causal es ilusoria. Kish, en cambio, rechaza que exista un supercriterio universal y defiende que la representatividad poblacional de una encuesta tiene mérito científico propio. Por último, Marradi advierte que en psicología y ciencias sociales los sujetos humanos no son piezas fungibles ni intercambiables: el laboratorio aísla variables al costo de crear condiciones artificiales que no siempre describen la conducta humana en su contexto real."
+      },
+      {
+        "type": "checklist",
+        "title": "Qué tiene que quedar reportado (APA, JARS)",
+        "items": [
+          "Nombre estructural del diseño y esquema gráfico claro (notación X · O · R o detalle equivalente).",
+          "Criterios de inclusión, exclusión y procedimiento específico de asignación a las condiciones (detallando el método de aleatorización si se empleó).",
+          "Procedimientos de enmascaramiento o cegamiento (quién conocía la condición asignada: participantes, evaluadores o administradores del tratamiento).",
+          "Descripción completa de la intervención (contenido de X, dosis, frecuencia, duración cronológica, manuales y verificación de fidelidad).",
+          "Diagrama de flujo de participantes (estilo JARS/CONSORT): evaluados para elegibilidad, asignados, pérdidas en el seguimiento con motivos por grupo y analizados.",
+          "Amenazas plausibles a la validez interna derivadas del diseño elegido y medidas adoptadas para mitigarlas o declararlas como limitaciones."
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "u05_c1",
+        "title": "Caso 1 · El taller de habilidades con una sola medición post",
+        "context": "Psicología Educativa y Social · Diseños preexperimentales",
+        "scenario": "Un equipo de profesionales aplica un taller de manejo de la ansiedad social a un grupo de 35 jóvenes durante un mes. Al finalizar la última sesión, administran una escala de interacción social y constatan que el puntaje medio es elevado (78 sobre 100). En el informe concluyen: «El taller demostró alta efectividad para elevar las habilidades sociales de los participantes».",
+        "question": "Analiza el diseño en notación Campbell y Stanley. ¿Por qué es inadmisible concluir que el taller fue efectivo? ¿Qué alternativas explicativas compiten con el tratamiento?",
+        "hints": [
+          "Dibuja el diseño: ¿cuántas observaciones hay y cuándo se realizaron?",
+          "¿Qué sabías sobre el nivel de habilidades de estos jóvenes antes de iniciar el taller?"
+        ],
+        "analysis": "El diseño se resume como **X  O** (estudio de caso con una sola medición). Carece de línea base (pretest) y de grupo de comparación.\n\nEs metodológicamente imposible sostener que el taller causó el puntaje alto. Los participantes pudieron haber iniciado el taller con habilidades ya elevadas (selección), o los puntajes pueden reflejar complacencia hacia los facilitadores (deseabilidad social). Para evaluar efectividad mínima se requería al menos un pretest ($O_1 \\ X \\ O_2$) y, para inferencia causal válida, un grupo de comparación simultáneo.",
+        "keyConcept": "El diseño X  O no permite ninguna inferencia causal al carecer de punto de referencia temporal o comparativo"
+      },
+      {
+        "id": "u05_c2",
+        "title": "Caso 2 · La comparación entre voluntarios y no participantes",
+        "context": "Psicología Organizacional · Cuasiexperimentos y sesgo de selección",
+        "scenario": "Una organización ofrece un programa voluntario de mindfulness para disminuir el estrés laboral. Cuarenta colaboradores deciden inscribirse y asistir durante ocho semanas; sesenta optan por no participar. La investigadora evalúa el estrés percibido en ambos grupos antes del programa y al concluir las ocho semanas. Al final, el grupo que asistió muestra una reducción de estrés significativamente mayor que el grupo no participante. El informe concluye que el mindfulness causó directamente la mejora.",
+        "question": "Dibuja el esquema del diseño en notación X · O · R. ¿Cuál es la amenaza crítica a la validez interna que invalida la atribución causal exclusiva al programa?",
+        "hints": [
+          "Observa cómo se formaron los dos grupos: ¿hubo sorteo aleatorio o decisión voluntaria?",
+          "¿Qué características psicológicas distinguen a quien voluntariamente busca apoyo frente a quien lo rechaza?"
+        ],
+        "analysis": "El diseño responde a un **diseño de grupo control no equivalente**: \n```\nO1   X   O2\n- - - - - -\nO1       O2\n```\nLa amenaza crítica es el **sesgo de selección y la interacción selección-maduración o selección-motivación**. Los colaboradores que se inscribieron voluntariamente tenían una disposición al cambio, conciencia de salud o nivel inicial de motivación muy distinto de quienes prefirieron no inscribirse. La mejoría observada puede deberse a esa motivación diferencial y no al protocolo de mindfulness per se.",
+        "keyConcept": "La autoselección genera grupos no equivalentes cuya motivación previa confunde el efecto del tratamiento"
+      },
+      {
+        "id": "u05_c3",
+        "title": "Caso 3 · La selección por puntajes extremos y la ilusión de mejoría",
+        "context": "Psicología Clínica · Regresión estadística a la media",
+        "scenario": "Un servicio de atención psicológica selecciona a los 25 pacientes que obtuvieron los puntajes más altos (más graves) de sintomatología depresiva en una evaluación masiva. Durante seis semanas les aplica una terapia experimental sin grupo de control. En el postest, el promedio de síntomas desciende 12 puntos de forma estadísticamente significativa. El equipo celebra que la intervención curó la depresión en esa muestra.",
+        "question": "¿Qué artefacto metodológico derivado del error de medición puede explicar la reducción de puntajes sin necesidad de que la terapia haya tenido efecto alguno?",
+        "hints": [
+          "Considera qué ocurre estadísticamente cuando seleccionas observaciones situadas en los percentiles extremos de una distribución.",
+          "Recuerda la teoría clásica de los tests: la puntuación observada contiene error aleatorio que rara vez se repite con la misma magnitud extrema."
+        ],
+        "analysis": "El artefacto es la **regresión estadística a la media**. Cuando los participantes son seleccionados exclusivamente por tener puntajes extremos en una primera medición, parte de esa puntuación se debe a error de medida aleatorio desfavorable. En una segunda medición, las puntuaciones tienden naturalmente a regresar hacia el promedio poblacional aun si la intervención es inocua o ineficaz.\n\nSin un grupo de control que haya puntuado igualmente extremo en el pretest y que haya permanecido sin tratamiento, es imposible deslindar cuánto del cambio corresponde a efecto terapéutico y cuánto a regresión estadística.",
+        "keyConcept": "Las puntuaciones extremas regresan espontáneamente hacia la media debido al error aleatorio de medición"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 05 · Auditoría y elección del diseño para un programa psicoeducativo",
+      "context": "Estás planificando una investigación para comprobar si un programa psicoeducativo de gestión del tiempo reduce la procrastinación en estudiantes universitarios. Cuentas con tres comisiones de estudiantes de la misma carrera.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Evaluar la viabilidad de la aleatorización individual",
+          "prompt": "La dirección de la carrera te advierte que los estudiantes ya están inscriptos en sus comisiones fijas y no es posible desarmar los cursos ni redistribuirlos al azar individualmente. ¿Cómo procedes para no falsear tu diseño?",
+          "options": [
+            {
+              "text": "Reconozco que no puedo hacer un experimento puro con R a nivel individual y adopto un diseño cuasiexperimental de grupos no equivalentes (asignando la intervención a una comisión y usando otra como control concurrente, con pretest y postest).",
+              "isOptimal": true,
+              "feedback": "¡Correcto! Trabajar con grupos intactos sin aleatorización individual define un diseño cuasiexperimental. Asumirlo con rigor y medir en pretest es metodológicamente honesto."
+            },
+            {
+              "text": "Escribo en el proyecto que mi diseño es un «experimento verdadero aleatorizado» porque elegí la comisión al azar tirando una moneda.",
+              "isOptimal": false,
+              "feedback": "Sorteo de una sola unidad o conglomerado no equivale a asignación aleatoria individual. Los estudiantes de una misma comisión comparten historias previas que sesgan los grupos."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Proteger el diseño contra la amenaza de historia contemporánea",
+          "prompt": "Durante las cuatro semanas que dura el programa psicoeducativo en la comisión experimental, ocurre un período de exámenes imprevisto. ¿Por qué es indispensable contar con la comisión de control evaluada en las mismas fechas?",
+          "options": [
+            {
+              "text": "Porque si los exámenes aumentan la ansiedad y alteran la procrastinación en ambos grupos, el grupo control permite aislar el impacto de ese evento histórico común y contrastar si el grupo intervenido amortiguó o redujo el problema.",
+              "isOptimal": true,
+              "feedback": "¡Excelente! El grupo de comparación contemporáneo sirve de termómetro para absorber las fluctuaciones históricas que ocurren al mismo tiempo que el tratamiento."
+            },
+            {
+              "text": "El grupo control no hace falta si aplico un análisis estadístico muy sofisticado al grupo experimental.",
+              "isOptimal": false,
+              "feedback": "Ninguna técnica estadística puede rescatar a un diseño de grupo único frente a un evento histórico no controlado que coincidió con la intervención."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Balancear las prioridades según Kish",
+          "prompt": "Un revisor te critica: «Este estudio no sirve porque no tiene una muestra representativa de todos los estudiantes del país». ¿Cómo defiendes tus decisiones con base en Kish (1987)?",
+          "options": [
+            {
+              "text": "Argumento que el estudio priorizó el control cuasiexperimental sobre la intervención en un contexto real de aprendizaje, sacrificando conscientemente la representación muestral a gran escala para evaluar la viabilidad y el cambio en la variable de estudio.",
+              "isOptimal": true,
+              "feedback": "¡Exacto! Según Kish no hay supercriterio. Si el objetivo es evaluar el funcionamiento de una intervención, priorizar control relativo y realismo sobre la representatividad poblacional es una decisión legítima que debe declararse abiertamente."
+            },
+            {
+              "text": "Le respondo al revisor que la muestra es totalmente representativa del país porque los estudiantes son universitarios típicos.",
+              "isOptimal": false,
+              "feedback": "Pretender representatividad sin muestreo probabilístico es un pseudocálculo conceptual. Lo honesto es justificar la renuncia según el triángulo de Kish."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [],
+    "readings": [
+      {
+        "title": "Diseños experimentales y cuasiexperimentales en la investigación social",
+        "url": "assets/reading/Campbell_Stanley_Disenos_Experimentales.pdf",
+        "type": "pdf",
+        "description": "Obra fundacional sobre la notación X-O-R, amenazas a la validez interna y externa, y taxonomía de diseños."
+      },
+      {
+        "title": "Experimental and Quasi-Experimental Designs for Generalized Causal Inference",
+        "url": "assets/reading/Shadish_Cook_Campbell_Causal_Inference.pdf",
+        "type": "pdf",
+        "description": "Tratado exhaustivo sobre validez causal, amenazas contemporáneas y diseños de discontinuidad en la regresión y series temporales."
+      },
+      {
+        "title": "Statistical Design for Research",
+        "url": "assets/reading/Kish_Statistical_Design.pdf",
+        "type": "pdf",
+        "description": "El marco triádico de Kish: control, representación y realismo sin supercriterios absolutistas."
+      }
+    ],
+    "notebooks": []
+  },
+  "autoauditoria": [
+    "¿Puedo dibujar el diseño de mi investigación en una sola línea con la notación X · O · R?",
+    "¿Mi estudio pretende sostener una relación causal? Si es así, ¿cuenta con un grupo de comparación adecuado?",
+    "¿Cómo se asignaron los participantes a las condiciones (aleatorización, autoselección, grupos naturales intactos)?",
+    "¿Qué criterio del triángulo de Kish prioricé (control, representación o realismo) y cuál sacrifiqué deliberadamente?",
+    "¿Identifiqué las amenazas a la validez interna que mi diseño deja abiertas (historia, maduración, selección, regresión, atrición)?",
+    "Si seleccioné participantes por puntuaciones extremas, ¿tomé precauciones contra el artefacto de la regresión a la media?",
+    "¿Registré y reporté el flujo de participantes, incluyendo pérdidas y abandonos entre mediciones según JARS?"
+  ],
+  "fuentes": [
+    "Campbell, D. T., & Stanley, J. C. (1966). Experimental and quasi-experimental designs for research. Rand McNally.",
+    "Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). Experimental and quasi-experimental designs for generalized causal inference. Houghton Mifflin.",
+    "Kish, L. (1987). Statistical design for research. John Wiley & Sons.",
+    "Kerlinger, F. N., & Lee, H. B. (2002). Investigación del comportamiento: Métodos de investigación en ciencias sociales (4.ª ed.). McGraw-Hill.",
+    "Marradi, A., Archenti, N., & Piovani, J. I. (2007). Metodología de las ciencias sociales. Emecé.",
+    "American Psychological Association. (2020). Journal article reporting standards for quantitative research (JARS-Quant). American Psychologist."
   ]
- },
- "casos": [],
- "recursos": {}
 }

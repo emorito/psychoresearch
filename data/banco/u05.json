@@ -1,4 +1,1045 @@
 {
- "modulo_id": "u05",
- "items": []
+  "modulo_id": "u05",
+  "items": [
+    {
+      "id": "u05-0001",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la notación clásica de diseños propuesta por Campbell y Stanley (1966), ¿qué representa el símbolo «X»?",
+      "opciones": [
+        "La exposición de un grupo a un tratamiento, intervención o manipulación experimental.",
+        "La observación o registro de la variable dependiente mediante un instrumento.",
+        "La asignación aleatoria de los participantes a las condiciones de estudio.",
+        "El tamaño muestral requerido para alcanzar potencia estadística."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! En la notación de Campbell y Stanley, «X» representa la variable independiente introducida o manipulada por el investigador (tratamiento o intervención).",
+        "incorrecta": "No es correcto. «X» designa el tratamiento o intervención; «O» representa la observación o medición y «R» la asignación aleatoria.",
+        "correct": "¡Correcto! En la notación de Campbell y Stanley, «X» representa la variable independiente introducida o manipulada por el investigador (tratamiento o intervención).",
+        "incorrect": "No es correcto. «X» designa el tratamiento o intervención; «O» representa la observación o medición y «R» la asignación aleatoria.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "notacion_diseno",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 1",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0002",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué indica el símbolo «R» colocado al inicio de las filas en el diagrama de un diseño de investigación?",
+      "opciones": [
+        "Que los participantes fueron asignados aleatoriamente a los grupos de estudio.",
+        "Que la muestra fue extraída mediante muestreo estratificado representativo.",
+        "Que la investigación se llevó a cabo en un entorno real no controlado.",
+        "Que los puntajes fueron normalizados mediante regresión estadística."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! «R» representa la asignación aleatoria (*randomization*) a las condiciones del estudio, lo que distingue a los experimentos verdaderos.",
+        "incorrecta": "No es correcto. «R» designa la asignación aleatoria de sujetos a las condiciones experimentales, no el muestreo ni la representatividad poblacional.",
+        "correct": "¡Exacto! «R» representa la asignación aleatoria (*randomization*) a las condiciones del estudio, lo que distingue a los experimentos verdaderos.",
+        "incorrect": "No es correcto. «R» designa la asignación aleatoria de sujetos a las condiciones experimentales, no el muestreo ni la representatividad poblacional.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "notacion_diseno",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 1; Shadish et al. (2002), cap. 1",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0003",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la notación de Campbell y Stanley, ¿qué significa una línea de puntos o guiones discontinuos (- - - - -) que separa dos filas paralelas?",
+      "opciones": [
+        "Que los grupos de comparación son no equivalentes y no fueron formados por asignación aleatoria.",
+        "Que entre la primera y la segunda medición ocurrió una pérdida masiva de participantes.",
+        "Que la intervención administrada fue de intensidad moderada o discontinua.",
+        "Que las observaciones se realizaron mediante autoinformes no estandarizados."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La línea punteada indica que los grupos son intactos o no equivalentes (no se utilizó asignación aleatoria R para conformarlos).",
+        "incorrecta": "No es correcto. Los trazos discontinuos indican la ausencia de asignación aleatoria entre grupos, señalando que son grupos no equivalentes.",
+        "correct": "¡Correcto! La línea punteada indica que los grupos son intactos o no equivalentes (no se utilizó asignación aleatoria R para conformarlos).",
+        "incorrect": "No es correcto. Los trazos discontinuos indican la ausencia de asignación aleatoria entre grupos, señalando que son grupos no equivalentes.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "notacion_diseno",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 3; Shadish et al. (2002), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0004",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué define conceptualmente a la validez interna en un estudio empírico?",
+      "opciones": [
+        "La seguridad razonable de que los cambios observados en la variable dependiente fueron causados por la variable independiente y no por factores extraños.",
+        "El grado en que los resultados pueden generalizarse a la población general de un país.",
+        "La precisión con que el instrumento de medición refleja el constructo teórico latente.",
+        "La potencia estadística disponible para rechazar la hipótesis nula con un alfa de 0,05."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La validez interna evalúa si la relación observada entre X e Y es verdaderamente causal o si puede explicarse por hipótesis rivales.",
+        "incorrecta": "No es correcto. La inferencia causal libre de factores extraños es la validez interna; la generalización corresponde a la validez externa.",
+        "correct": "¡Correcto! La validez interna evalúa si la relación observada entre X e Y es verdaderamente causal o si puede explicarse por hipótesis rivales.",
+        "incorrect": "No es correcto. La inferencia causal libre de factores extraños es la validez interna; la generalización corresponde a la validez externa.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 1; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0005",
+      "tipo": "opcion_multiple",
+      "enunciado": "Según Leslie Kish (1987), ¿cuáles son los tres criterios fundamentales que entran en tensión al planificar un diseño de investigación?",
+      "opciones": [
+        "Control, Representación y Realismo.",
+        "Fiabilidad, Validez y Objetividad.",
+        "Hipótesis, Muestra y Análisis.",
+        "Inducción, Deducción y Abducción."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El triángulo de Kish plantea que ninguna investigación maximiza simultáneamente Control (experimentos), Representación (encuestas) y Realismo (observaciones).",
+        "incorrecta": "No es correcto. Los tres criterios del triángulo de Kish son Control (control causal), Representación (inferencia poblacional) y Realismo (validez ecológica).",
+        "correct": "¡Exacto! El triángulo de Kish plantea que ninguna investigación maximiza simultáneamente Control (experimentos), Representación (encuestas) y Realismo (observaciones).",
+        "incorrect": "No es correcto. Los tres criterios del triángulo de Kish son Control (control causal), Representación (inferencia poblacional) y Realismo (validez ecológica).",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "triangulo_kish",
+      "lectura_ref": "Kish (1987), Statistical Design for Research, cap. 1",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0006",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué postula Kish (1987) sobre la jerarquía entre experimentos y encuestas observacionales?",
+      "opciones": [
+        "No existe un supercriterio: las encuestas y estudios observacionales no son experimentos defectuosos, sino diseños con propósitos y renuncias propias.",
+        "El experimento de laboratorio es siempre superior a cualquier otro método en todas las disciplinas científicas.",
+        "Las encuestas probabilísticas carecen de valor científico porque no manipulan variables independientes activas.",
+        "Los cuasiexperimentos siempre deben descartarse si no es posible asignar al azar."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Kish enfatiza que no existe un supercriterio: cada diseño responde a compromisos metodológicos legítimos entre control, representación y realismo.",
+        "incorrecta": "No es correcto. Kish rechaza expresamente que haya una jerarquía fija donde el experimento siempre mande; cada diseño tiene legitimidad según la pregunta.",
+        "correct": "¡Correcto! Kish enfatiza que no existe un supercriterio: cada diseño responde a compromisos metodológicos legítimos entre control, representación y realismo.",
+        "incorrect": "No es correcto. Kish rechaza expresamente que haya una jerarquía fija donde el experimento siempre mande; cada diseño tiene legitimidad según la pregunta.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "triangulo_kish",
+      "lectura_ref": "Kish (1987), Statistical Design for Research, cap. 1",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0007",
+      "tipo": "opcion_multiple",
+      "enunciado": "La amenaza a la validez interna denominada «Historia» se define como:",
+      "opciones": [
+        "Acontecimientos externos imprevistos ocurridos entre la primera y la segunda medición que pueden haber causado el cambio observado.",
+        "El desarrollo biológico o maduración espontánea que experimentan los participantes con el paso del tiempo.",
+        "El cambio en los instrumentos de medición o en la calibración de los evaluadores.",
+        "La biografía personal y los recuerdos subjetivos que el participante relata durante la entrevista."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! La historia refiere a eventos externos del entorno que ocurren de forma contemporánea a la intervención y compiten con ella como causa del cambio.",
+        "incorrecta": "No es correcto. La historia son eventos externos ocurridos entre mediciones; los cambios internos espontáneos corresponden a la maduración.",
+        "correct": "¡Exacto! La historia refiere a eventos externos del entorno que ocurren de forma contemporánea a la intervención y compiten con ella como causa del cambio.",
+        "incorrect": "No es correcto. La historia son eventos externos ocurridos entre mediciones; los cambios internos espontáneos corresponden a la maduración.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0008",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿En qué consiste la amenaza de «Maduración» en un estudio longitudinal o de intervención?",
+      "opciones": [
+        "Procesos biológicos o psicológicos propios del paso del tiempo (crecimiento, fatiga, recuperación natural) que ocurren en los participantes con independencia del tratamiento.",
+        "El perfeccionamiento que experimenta el equipo de investigación tras aplicar varias veces el mismo instrumento.",
+        "La influencia de noticias o eventos políticos ocurridos durante el período de estudio.",
+        "El sesgo derivado de seleccionar intencionalmente a participantes de edad avanzada."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La maduración abarca todos los cambios internos del sujeto producto del mero transcurso del tiempo, como envejecimiento, desarrollo o curación espontánea.",
+        "incorrecta": "No es correcto. La maduración refiere a cambios intrínsecos de los participantes debidos al paso del tiempo, no a eventos externos ni a experiencia de los evaluadores.",
+        "correct": "¡Correcto! La maduración abarca todos los cambios internos del sujeto producto del mero transcurso del tiempo, como envejecimiento, desarrollo o curación espontánea.",
+        "incorrect": "No es correcto. La maduración refiere a cambios intrínsecos de los participantes debidos al paso del tiempo, no a eventos externos ni a experiencia de los evaluadores.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0009",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué el diseño preexperimental de pretest-postest de un solo grupo (O₁  X  O₂) es considerado metodológicamente defectuoso para sostener causalidad?",
+      "opciones": [
+        "Porque no tiene un grupo de comparación concurrente, dejando abiertas las amenazas de historia, maduración, prueba e instrumentación.",
+        "Porque la muestra calculada para un solo grupo nunca puede ser representativa de la población.",
+        "Porque impide calcular la fiabilidad mediante el coeficiente alfa de Cronbach.",
+        "Porque la APA prohíbe evaluar a los mismos participantes en dos momentos temporales distintos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Sin un grupo de control concurrente, cualquier cambio entre O₁ y O₂ puede deberse al paso del tiempo (maduración), eventos externos (historia) o aprendizaje (prueba).",
+        "incorrecta": "No es correcto. La falla medular no es estadística ni de muestreo, sino la incapacidad de descartar explicaciones rivales por carecer de grupo de control.",
+        "correct": "¡Correcto! Sin un grupo de control concurrente, cualquier cambio entre O₁ y O₂ puede deberse al paso del tiempo (maduración), eventos externos (historia) o aprendizaje (prueba).",
+        "incorrect": "No es correcto. La falla medular no es estadística ni de muestreo, sino la incapacidad de descartar explicaciones rivales por carecer de grupo de control.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0010",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué es la «Regresión estadística a la media»?",
+      "opciones": [
+        "La tendencia matemática de las puntuaciones extremas en una primera medición a acercarse al promedio en mediciones posteriores debido al error aleatorio de medida.",
+        "Una técnica estadística multivariada para predecir una variable dependiente continua a partir de predictores.",
+        "El retroceso en el desarrollo psicológico que sufren los participantes sometidos a condiciones estresantes.",
+        "La pérdida progresiva de potencia estadística cuando la muestra se reduce por abandono de casos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Si seleccionas casos por tener puntajes sumamente altos o bajos, en el postest puntuarán más cerca de la media por simple fluctuación del error aleatorio de medición.",
+        "incorrecta": "No es correcto. La regresión estadística como amenaza es un fenómeno de error de medida que hace que los valores extremos converjan hacia la media en la segunda aplicación.",
+        "correct": "¡Exacto! Si seleccionas casos por tener puntajes sumamente altos o bajos, en el postest puntuarán más cerca de la media por simple fluctuación del error aleatorio de medición.",
+        "incorrect": "No es correcto. La regresión estadística como amenaza es un fenómeno de error de medida que hace que los valores extremos converjan hacia la media en la segunda aplicación.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0011",
+      "tipo": "opcion_multiple",
+      "enunciado": "La amenaza de «Atrición» o «Mortalidad experimental» se produce cuando:",
+      "opciones": [
+        "Los participantes abandonan el estudio durante su desarrollo, especialmente si la pérdida es diferencial entre los grupos comparados.",
+        "Los sujetos evaluados fallecen durante el período de seguimiento de una investigación longitudinal.",
+        "El instrumento psicométrico pierde confiabilidad debido al envejecimiento de sus baremos.",
+        "El tratamiento experimental genera efectos adversos tan severos que debe suspenderse."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La atrición refiere a los abandonos o pérdidas de seguimiento; si quienes abandonan el grupo experimental son diferentes de quienes abandonan el control, se destruye la equivalencia.",
+        "incorrecta": "No es correcto. Aunque el término histórico fue 'mortalidad', metodológicamente designa cualquier deserción o pérdida de participantes durante el estudio.",
+        "correct": "¡Correcto! La atrición refiere a los abandonos o pérdidas de seguimiento; si quienes abandonan el grupo experimental son diferentes de quienes abandonan el control, se destruye la equivalencia.",
+        "incorrect": "No es correcto. Aunque el término histórico fue 'mortalidad', metodológicamente designa cualquier deserción o pérdida de participantes durante el estudio.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0012",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la diferencia metodológica crucial entre asignación aleatoria (R) y selección aleatoria (muestreo probabilístico)?",
+      "opciones": [
+        "La asignación aleatoria distribuye a los participantes disponibles entre los grupos del experimento (validez interna); la selección aleatoria extrae a los participantes de una población (validez externa).",
+        "La asignación aleatoria se utiliza en encuestas y la selección aleatoria en experimentos de laboratorio.",
+        "No existe ninguna diferencia; ambos conceptos son sinónimos intercambiables en metodología.",
+        "La asignación aleatoria requiere marco muestral y la selección aleatoria se realiza sin marco."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Impecable! La asignación al azar reparte a los sujetos en condiciones experimentales para garantizar equivalencia inicial (R); la selección al azar toma sujetos de una población para garantizar representatividad.",
+        "incorrecta": "No es correcto. Es una de las confusiones más graves: asignar al azar (R) crea grupos equivalentes para aislar la causa; seleccionar al azar muestrea de una población para generalizar.",
+        "correct": "¡Impecable! La asignación al azar reparte a los sujetos en condiciones experimentales para garantizar equivalencia inicial (R); la selección al azar toma sujetos de una población para garantizar representatividad.",
+        "incorrect": "No es correcto. Es una de las confusiones más graves: asignar al azar (R) crea grupos equivalentes para aislar la causa; seleccionar al azar muestrea de una población para generalizar.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "disenos_experimentales",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 1; Kish (1987), cap. 1",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0013",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un investigador evalúa un programa de lectura en una escuela primaria aplicando una prueba en marzo (O₁) y otra en noviembre (O₂) sin grupo de control. Los niños mejoran notablemente. ¿Por qué la maduración es una hipótesis rival insalvable en este diseño?",
+      "opciones": [
+        "Porque los niños de esa edad adquieren habilidades cognitivas y lectoras de forma natural a lo largo de un año escolar por mero desarrollo biológico y psicológico.",
+        "Porque la prueba de lectura utilizada pierde validez de constructo después de seis meses de aplicación.",
+        "Porque los docentes de la escuela cambiaron de criterios de calificación a mitad del período.",
+        "Porque el error estándar de medida se incrementa proporcionalmente con el paso del tiempo."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! En niños en etapa de desarrollo, ocho meses de crecimiento implican maduración cognitiva espontánea que explica la mejoría sin necesidad de atribuirla al programa.",
+        "incorrecta": "No es correcto. La maduración biológica y psicológica propia de la edad explica naturalmente el desarrollo lector a lo largo de un año escolar en ausencia de un grupo de comparación.",
+        "correct": "¡Correcto! En niños en etapa de desarrollo, ocho meses de crecimiento implican maduración cognitiva espontánea que explica la mejoría sin necesidad de atribuirla al programa.",
+        "incorrect": "No es correcto. La maduración biológica y psicológica propia de la edad explica naturalmente el desarrollo lector a lo largo de un año escolar en ausencia de un grupo de comparación.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0014",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un estudio sobre estrés laboral, se ofrece un taller a quienes deseen anotarse voluntariamente. Se compara a los 40 que asistieron contra 40 que no se anotaron. ¿Qué amenaza específica surge de la interacción entre selección y motivación?",
+      "opciones": [
+        "Los participantes que eligen voluntariamente asistir pueden tener mayor motivación previa al cambio, predisponiéndolos a mejorar más rápido que los no voluntarios.",
+        "Los participantes no voluntarios sufrirán una disminución artificial de sus puntajes por efecto del pretest.",
+        "El instrumento psicométrico mostrará menor consistencia interna en el grupo voluntario.",
+        "Se producirá una regresión estadística forzada hacia el puntaje mínimo de la escala."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! La autoselección confunde el efecto del tratamiento con las características previas diferenciales (disposición al cambio, motivación intrínseca) de quienes deciden participar.",
+        "incorrecta": "No es correcto. El problema medular es la interacción selección-maduración o selección-motivación: los voluntarios eran personas psicológicamente distintas desde el inicio.",
+        "correct": "¡Exacto! La autoselección confunde el efecto del tratamiento con las características previas diferenciales (disposición al cambio, motivación intrínseca) de quienes deciden participar.",
+        "incorrect": "No es correcto. El problema medular es la interacción selección-maduración o selección-motivación: los voluntarios eran personas psicológicamente distintas desde el inicio.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 3; Shadish et al. (2002), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0015",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la ventaja exclusiva del diseño de cuatro grupos de Solomon frente al diseño pretest-postest clásico?",
+      "opciones": [
+        "Permite aislar tanto el efecto principal de la prueba previa (pretest) como su posible interacción con el tratamiento experimental.",
+        "Elimina por completo la necesidad de contar con una muestra mayor a 30 participantes.",
+        "Garantiza que no habrá pérdida de participantes durante el seguimiento longitudinal.",
+        "Convierte automáticamente un diseño cuasiexperimental en un estudio observacional de campo."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Al incluir dos grupos con pretest y dos sin pretest, Solomon permite evaluar si haber respondido el pretest sensibilizó a los sujetos respecto del tratamiento X.",
+        "incorrecta": "No es correcto. La contribución única de los 4 grupos de Solomon es desentrañar el efecto de sensibilización del pretest y su interacción con X.",
+        "correct": "¡Correcto! Al incluir dos grupos con pretest y dos sin pretest, Solomon permite evaluar si haber respondido el pretest sensibilizó a los sujetos respecto del tratamiento X.",
+        "incorrect": "No es correcto. La contribución única de los 4 grupos de Solomon es desentrañar el efecto de sensibilización del pretest y su interacción con X.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_experimentales",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 8",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0016",
+      "tipo": "opcion_multiple",
+      "enunciado": "En el diseño experimental de solo postest con grupo control (R  X  O₁ / R  O₂), ¿por qué es válido prescindir de la medición pretest?",
+      "opciones": [
+        "Porque la asignación aleatoria (R) asegura que las diferencias iniciales entre grupos antes del tratamiento se deban únicamente a fluctuaciones aleatorias esperables.",
+        "Porque los pretests están desaconsejados por las directrices JARS de la APA para investigaciones cuantitativas.",
+        "Porque la medición pretest siempre invalida la validez de constructo de los instrumentos.",
+        "Porque el análisis factorial confirmatorio reemplaza los datos no recolectados en el pretest."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Si la aleatorización R se implementó de forma adecuada, los grupos son probabilísticamente equivalentes antes de X, haciendo innecesario el pretest para demostrar causalidad.",
+        "incorrecta": "No es correcto. El pretest no es obligatorio para la validez interna si hubo R, ya que la asignación al azar equilibra las diferencias iniciales entre los grupos.",
+        "correct": "¡Exacto! Si la aleatorización R se implementó de forma adecuada, los grupos son probabilísticamente equivalentes antes de X, haciendo innecesario el pretest para demostrar causalidad.",
+        "incorrect": "No es correcto. El pretest no es obligatorio para la validez interna si hubo R, ya que la asignación al azar equilibra las diferencias iniciales entre los grupos.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_experimentales",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 8",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0017",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cómo logra el diseño de series temporales interrumpidas (O₁ O₂ O₃ O₄ X O₅ O₆ O₇ O₈) controlar las amenazas de maduración y regresión a la media?",
+      "opciones": [
+        "Porque las múltiples mediciones previas permiten conocer la tendencia y estabilidad de la serie antes de que intervenga X.",
+        "Porque utiliza una muestra aleatoria estratificada en cada una de las observaciones temporales.",
+        "Porque divide a los participantes en grupos de alta y baja reactividad de forma automática.",
+        "Porque elimina la varianza del error mediante transformaciones logarítmicas de la variable Y."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Al observar la trayectoria previa a lo largo del tiempo, se comprueba si la variable ya venía cambiando (maduración) o si fluctuaba por error (regresión), identificando el quiebre atribuible a X.",
+        "incorrecta": "No es correcto. La fortaleza de las series de tiempo radica en que la multiplicidad de medidas pretest define la línea de base y tendencia temporal previa a la intervención.",
+        "correct": "¡Correcto! Al observar la trayectoria previa a lo largo del tiempo, se comprueba si la variable ya venía cambiando (maduración) o si fluctuaba por error (regresión), identificando el quiebre atribuible a X.",
+        "incorrect": "No es correcto. La fortaleza de las series de tiempo radica en que la multiplicidad de medidas pretest define la línea de base y tendencia temporal previa a la intervención.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 3; Shadish et al. (2002), cap. 6",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0018",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué distingue la amenaza de «Efecto de la prueba» de la amenaza de «Instrumentación»?",
+      "opciones": [
+        "El efecto de la prueba ocurre por cambios en el participante al responder por segunda vez; la instrumentación ocurre por cambios en la herramienta, calibración o evaluador.",
+        "El efecto de la prueba ocurre únicamente en experimentos de laboratorio; la instrumentación ocurre en encuestas.",
+        "El efecto de la prueba es provocado por el tratamiento X; la instrumentación es provocada por la selección de la muestra.",
+        "No existe diferencia conceptual; ambas designan el error aleatorio de medición según la TCT."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El efecto de la prueba radica en el sujeto (aprendizaje, familiaridad con los reactivos); la instrumentación radica en el instrumento o en quien califica (desgaste, criterios variables).",
+        "incorrecta": "No es correcto. La prueba altera al evaluado (aprendizaje/reactividad); la instrumentación altera al evaluador o al sistema de medida (criterios, fatiga, calibración).",
+        "correct": "¡Exacto! El efecto de la prueba radica en el sujeto (aprendizaje, familiaridad con los reactivos); la instrumentación radica en el instrumento o en quien califica (desgaste, criterios variables).",
+        "incorrect": "No es correcto. La prueba altera al evaluado (aprendizaje/reactividad); la instrumentación altera al evaluador o al sistema de medida (criterios, fatiga, calibración).",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0019",
+      "tipo": "opcion_multiple",
+      "enunciado": "En una intervención para dejar de fumar, el 30 % de los participantes del grupo experimental abandona debido a la exigencia del tratamiento, mientras que en el grupo control solo abandona el 5 %. ¿Qué consecuencia tiene esto sobre la inferencia causal?",
+      "opciones": [
+        "Genera una atrición diferencial que destruye la equivalencia inicial lograda por la aleatorización, dejando a los grupos sesgados.",
+        "Mejora la validez interna porque solo permanecen los participantes más disciplinados.",
+        "Anula el tamaño del efecto pero mantiene intacta la equivalencia de los grupos.",
+        "Demuestra fehacientemente que la intervención carece de validez de contenido."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Si el abandono es asimétrico, quienes permanecen en el grupo experimental poseen características particulares (p. ej., mayor resiliencia) que los diferencian del grupo control.",
+        "incorrecta": "No es correcto. La pérdida diferencial de participantes rompe la comparabilidad de los grupos y confunde el efecto del tratamiento con las características de los supervivientes.",
+        "correct": "¡Correcto! Si el abandono es asimétrico, quienes permanecen en el grupo experimental poseen características particulares (p. ej., mayor resiliencia) que los diferencian del grupo control.",
+        "incorrect": "No es correcto. La pérdida diferencial de participantes rompe la comparabilidad de los grupos y confunde el efecto del tratamiento con las características de los supervivientes.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0020",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué Campbell y Stanley (1966) advierten enfáticamente que el «emparejamiento» (*matching*) de grupos no reemplaza a la asignación aleatoria (R)?",
+      "opciones": [
+        "Porque solo iguala en las variables explícitamente emparejadas, dejando abiertas diferencias en variables no observadas, y con frecuencia introduce regresión estadística espuria.",
+        "Porque el emparejamiento duplica innecesariamente el costo económico de la recolección de datos.",
+        "Porque la técnica de emparejamiento solo puede aplicarse con muestras superiores a 1.000 sujetos.",
+        "Porque los comités de ética desaconsejan emparejar participantes por edad y nivel socioeconómico."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El emparejamiento controla únicamente lo que se mide y conoce; la aleatorización (R) equilibra tanto las variables conocidas como las no observadas y desconocidas.",
+        "incorrecta": "No es correcto. El emparejamiento crea una falsa sensación de equivalencia: deja sin controlar las variables no observadas y suele inducir regresión a la media artificial.",
+        "correct": "¡Exacto! El emparejamiento controla únicamente lo que se mide y conoce; la aleatorización (R) equilibra tanto las variables conocidas como las no observadas y desconocidas.",
+        "incorrect": "No es correcto. El emparejamiento crea una falsa sensación de equivalencia: deja sin controlar las variables no observadas y suele inducir regresión a la media artificial.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 3; Shadish et al. (2002), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0021",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un diseño de discontinuidad en la regresión (*regression discontinuity design*), ¿cómo se asigna a los participantes a las condiciones?",
+      "opciones": [
+        "Mediante un punto de corte estricto en una variable continua cuantitativa evaluada previamente.",
+        "Mediante sorteo aleatorio simple utilizando tablas de números aleatorios.",
+        "Por orden de llegada al centro asistencial hasta completar las cuotas fijadas.",
+        "A través de un juicio clínico no estructurado realizado por el equipo directivo."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! En este diseño, la asignación depende exclusivamente de estar por encima o por debajo de un punto de corte numérico (p. ej., puntaje de gravedad clínica).",
+        "incorrecta": "No es correcto. La asignación en este cuasiexperimento se basa en una regla conocida y medible: el umbral o punto de corte en una variable continua previa.",
+        "correct": "¡Correcto! En este diseño, la asignación depende exclusivamente de estar por encima o por debajo de un punto de corte numérico (p. ej., puntaje de gravedad clínica).",
+        "incorrect": "No es correcto. La asignación en este cuasiexperimento se basa en una regla conocida y medible: el umbral o punto de corte en una variable continua previa.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Shadish et al. (2002), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0022",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué permite contrastar un diseño factorial 2 × 2 que no puede evaluarse con dos experimentos simples separados?",
+      "opciones": [
+        "El efecto de interacción entre las dos variables independientes sobre la variable dependiente.",
+        "La validez convergente de los reactivos de la escala mediante ecuaciones estructurales.",
+        "La reducción automática del error tipo II sin necesidad de justificar el tamaño de la muestra.",
+        "La generalización de los resultados a muestras clínicas sin requerir consentimiento informado."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El diseño factorial revela si el efecto de un factor depende del nivel del otro factor (interacción), algo imposible de detectar estudiando cada variable por separado.",
+        "incorrecta": "No es correcto. La gran aportación de los factoriales es la interacción: determinar si el impacto de una variable independiente varía según el nivel de la otra.",
+        "correct": "¡Exacto! El efecto de interacción entre las dos variables independientes sobre la variable dependiente.",
+        "incorrect": "No es correcto. La gran aportación de los factoriales es la interacción: determinar si el impacto de una variable independiente varía según el nivel de la otra.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_experimentales",
+      "lectura_ref": "Kerlinger y Lee (2002), cap. 19; Shadish et al. (2002), cap. 8",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0023",
+      "tipo": "opcion_multiple",
+      "enunciado": "La amenaza conocida como «Rivalidad compensatoria» (efecto John Henry) ocurre cuando:",
+      "opciones": [
+        "El grupo de control se entera de que está en desventaja y se esfuerza deliberadamente de forma extraordinaria para superar al grupo experimental.",
+        "Los terapeutas del grupo experimental compiten entre sí por demostrar mayor adherencia al protocolo.",
+        "Los investigadores falsean los datos para confirmar la hipótesis de trabajo inicial.",
+        "Ambos grupos sufren una pérdida idéntica de participantes debido a desinterés generalizado."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! En estudios de campo, si el grupo control percibe que compite contra una innovación, su sobreesfuerzo compensatorio puede enmascarar el efecto real de la intervención.",
+        "incorrecta": "No es correcto. El efecto John Henry consiste en el sobreesfuerzo competitivo del grupo control al saberse en la condición sin tratamiento o desfavorecida.",
+        "correct": "¡Correcto! En estudios de campo, si el grupo control percibe que compite contra una innovación, su sobreesfuerzo compensatorio puede enmascarar el efecto real de la intervención.",
+        "incorrect": "No es correcto. El efecto John Henry consiste en el sobreesfuerzo competitivo del grupo control al saberse en la condición sin tratamiento o desfavorecida.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Shadish et al. (2002), cap. 3",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0024",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué es la «Difusión del tratamiento» en una investigación de intervención?",
+      "opciones": [
+        "Los participantes del grupo experimental comparten información, materiales o técnicas con los participantes del grupo control, contaminando la condición de control.",
+        "La divulgación pública de los resultados preliminares en redes sociales antes de cerrar el estudio.",
+        "El aumento progresivo de la dosis del fármaco o intervención a lo largo de las sesiones.",
+        "La pérdida paulatina de interés de los participantes en responder los cuestionarios postest."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Ocurre con frecuencia en escuelas o empresas: los participantes del grupo control aprenden y aplican las técnicas que recibieron sus compañeros, disipando la diferencia entre grupos.",
+        "incorrecta": "No es correcto. La difusión o contaminación del tratamiento ocurre cuando el grupo control adopta elementos de la intervención administrada al grupo experimental.",
+        "correct": "¡Exacto! Ocurre con frecuencia en escuelas o empresas: los participantes del grupo control aprenden y aplican las técnicas que recibieron sus compañeros, disipando la diferencia entre grupos.",
+        "incorrect": "No es correcto. La difusión o contaminación del tratamiento ocurre cuando el grupo control adopta elementos de la intervención administrada al grupo experimental.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Shadish et al. (2002), cap. 3",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0025",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un investigador aplica una encuesta transversal a 800 personas y encuentra una correlación moderada entre satisfacción conyugal y autoestima. ¿Por qué este diseño no permite concluir que la autoestima causa la satisfacción conyugal?",
+      "opciones": [
+        "Porque no hay manipulación ni precedencia temporal establecida: es igualmente plausible que la satisfacción cause la autoestima o que una tercera variable común cause ambas.",
+        "Porque el tamaño de muestra de 800 casos es insuficiente para realizar correlaciones de Pearson.",
+        "Porque las encuestas transversales solo pueden utilizar variables cualitativas dicotómicas.",
+        "Porque la validez externa anula automáticamente la posibilidad de encontrar significación estadística."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! En un corte transversal las variables se miden simultáneamente: falta la precedencia temporal y el control de variables extrañas para sostener la dirección causal.",
+        "incorrecta": "No es correcto. La correlación no implica causalidad porque carece de manipulación activa, orden temporal claro y control de factores de confusión comunes.",
+        "correct": "¡Correcto! En un corte transversal las variables se miden simultáneamente: falta la precedencia temporal y el control de variables extrañas para sostener la dirección causal.",
+        "incorrect": "No es correcto. La correlación no implica causalidad porque carece de manipulación activa, orden temporal claro y control de factores de confusión comunes.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "triangulo_kish",
+      "lectura_ref": "Kish (1987), cap. 1; Kerlinger y Lee (2002), cap. 22",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0026",
+      "tipo": "opcion_multiple",
+      "enunciado": "Si una investigación prioriza al máximo el «Control» en el triángulo de Kish montando un experimento en cabinas aisladas de laboratorio con estudiantes voluntarios, ¿qué coste metodológico asume típicamente?",
+      "opciones": [
+        "Sacrifica el realismo del contexto (validez ecológica) y la representación probabilística de la población.",
+        "Pierde validez interna y queda expuesta a la amenaza de maduración espontánea.",
+        "Incurre en pseudocálculo al no poder calcular el valor p del contraste de hipótesis.",
+        "Invalida la posibilidad de publicar el estudio según las normas de la APA."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El aislamiento de laboratorio maximiza el control interno pero vuelve artificial el entorno (bajo realismo) y utiliza muestras seleccionadas que no representan a la población general.",
+        "incorrecta": "No es correcto. Según Kish, maximizar el control causal en el laboratorio se logra al costo de sacrificar validez ecológica (realismo) y generalizabilidad poblacional.",
+        "correct": "¡Exacto! El aislamiento de laboratorio maximiza el control interno pero vuelve artificial el entorno (bajo realismo) y utiliza muestras seleccionadas que no representan a la población general.",
+        "incorrect": "No es correcto. Según Kish, maximizar el control causal en el laboratorio se logra al costo de sacrificar validez ecológica (realismo) y generalizabilidad poblacional.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "triangulo_kish",
+      "lectura_ref": "Kish (1987), Statistical Design for Research, cap. 1",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0027",
+      "tipo": "opcion_multiple",
+      "enunciado": "En los estándares JARS de la APA para investigaciones experimentales, ¿qué función cumple el diagrama de flujo de participantes (estilo CONSORT)?",
+      "opciones": [
+        "Detallar de forma transparente el número de sujetos evaluados para elegibilidad, asignados a cada condición, pérdidas con sus motivos y analizados finalmente.",
+        "Ilustrar la teoría psicológica que fundamenta la formulación de los objetivos de la investigación.",
+        "Sustituir el reporte de los estadísticos descriptivos como medias y desviaciones estándar.",
+        "Representar los ítems del instrumento psicométrico según su carga factorial en el modelo."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! El diagrama de flujo documenta de extremo a extremo la trayectoria de los participantes y visibiliza posibles sesgos por atrición o exclusión.",
+        "incorrecta": "No es correcto. El flujo de participantes exigido por JARS documenta la trazabilidad del reclutamiento, asignación, seguimiento y análisis por grupo.",
+        "correct": "¡Correcto! El diagrama de flujo documenta de extremo a extremo la trayectoria de los participantes y visibiliza posibles sesgos por atrición o exclusión.",
+        "incorrect": "No es correcto. El flujo de participantes exigido por JARS documenta la trazabilidad del reclutamiento, asignación, seguimiento y análisis por grupo.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "reporte_jars_diseno",
+      "lectura_ref": "APA JARS-Quant (2020); Shadish et al. (2002), cap. 11",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0028",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué propósito metodológico cumple el procedimiento de «doble ciego» (*double-blind*) en un ensayo experimental?",
+      "opciones": [
+        "Evitar que tanto los participantes como quienes administran la intervención o evalúan los resultados conozcan la condición a la que pertenece cada sujeto.",
+        "Garantizar que el análisis estadístico sea ciego a la significación empírica de los contrastes.",
+        "Impedir que el comité de ética conozca la identidad de los investigadores responsables.",
+        "Asegurar que los observadores no se comuniquen entre sí durante el registro de datos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El doble ciego controla simultáneamente las expectativas y efectos placebo en los participantes y el sesgo de confirmación o trato diferencial de los evaluadores.",
+        "incorrecta": "No es correcto. El doble ciego protege la validez al asegurar que ni participantes ni administradores/evaluadores conozcan la asignación a las condiciones.",
+        "correct": "¡Exacto! El doble ciego controla simultáneamente las expectativas y efectos placebo en los participantes y el sesgo de confirmación o trato diferencial de los evaluadores.",
+        "incorrect": "No es correcto. El doble ciego protege la validez al asegurar que ni participantes ni administradores/evaluadores conozcan la asignación a las condiciones.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_experimentales",
+      "lectura_ref": "Shadish et al. (2002), cap. 3; Kazdin (2016), cap. 6",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0029",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un investigador asigna al azar dos cursos escolares intactos tirando una moneda: el curso A recibe el programa y el curso B es el control. ¿Por qué este diseño NO es un experimento aleatorizado verdadero a nivel de los alumnos?",
+      "opciones": [
+        "Porque la unidad de aleatorización fue el curso (con N = 2 unidades asignadas) y los alumnos comparten interacciones e historia común que invalidan la independencia individual.",
+        "Porque tirar una moneda viola los supuestos de la distribución normal en estadística paramétrica.",
+        "Porque los cursos escolares nunca pueden participar en estudios experimentales según APA.",
+        "Porque la aleatorización por conglomerados solo es válida si la muestra tiene más de 500 alumnos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Asignar dos grupos intactos no equivale a aleatorizar a los individuos. Las peculiaridades de cada aula (docente, dinámica grupal) quedan confundidas con el tratamiento.",
+        "incorrecta": "No es correcto. El sorteo de una o dos aulas no es aleatorización individual: la muestra efectiva de asignación es N = 2 conglomerados, lo que no neutraliza los sesgos grupales.",
+        "correct": "¡Correcto! La unidad de aleatorización fue el curso (con N = 2 unidades asignadas) y los alumnos comparten interacciones e historia común que invalidan la independencia individual.",
+        "incorrect": "No es correcto. El sorteo de una o dos aulas no es aleatorización individual: la muestra efectiva de asignación es N = 2 conglomerados, lo que no neutraliza los sesgos grupales.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 3; Kish (1987), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0030",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la evaluación de un programa de formación docente, se administra un pretest que aborda conceptos teóricos novedosos. En el postest, los docentes obtienen calificaciones excelentes. ¿Qué amenaza a la validez interna es especialmente probable si los ítems eran idénticos?",
+      "opciones": [
+        "Efecto de la prueba (sensibilización y recuerdo de reactivos específicos entre mediciones).",
+        "Mortalidad selectiva de los docentes con menor rendimiento.",
+        "Regresión espontánea provocada por la varianza de error del instrumento.",
+        "Invarianza escalar de la escala psicométrica."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Responder una prueba específica orienta la atención y facilita el aprendizaje de las respuestas exactas, inflando las calificaciones del postest por efecto de la prueba.",
+        "incorrecta": "No es correcto. La aplicación repetida de reactivos idénticos genera sensibilización y recuerdo en los participantes (efecto de la prueba).",
+        "correct": "¡Exacto! Efecto de la prueba (sensibilización y recuerdo de reactivos específicos entre mediciones).",
+        "incorrect": "No es correcto. La aplicación repetida de reactivos idénticos genera sensibilización y recuerdo en los participantes (efecto de la prueba).",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 2; Shadish et al. (2002), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0031",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un ensayo clínico aleatorizado de psicoterapia, el análisis excluye a los participantes que no asistieron a más del 70 % de las sesiones, evaluando únicamente a los «adherentes». ¿Por qué este análisis «por protocolo» destruye la garantía de la aleatorización?",
+      "opciones": [
+        "Porque rompe la equivalencia inicial: quienes logran adherirse difieren psicológicamente de quienes abandonan, reintroduciendo el sesgo de selección en la comparación.",
+        "Porque reduce artificialmente el número de grados de libertad necesarios para calcular el estadístico F.",
+        "Porque contradice la fórmula clásica de la regresión hacia la media propuesta por Campbell.",
+        "Porque los datos de quienes abandonan deben ser imputados exclusivamente con la media del grupo control."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Impecable! La aleatorización garantiza grupos equivalentes antes del tratamiento; si luego seleccionas solo a los cumplidores, comparas grupos autoseleccionados. Por eso JARS exige análisis por intención de tratar (ITT).",
+        "incorrecta": "No es correcto. El análisis restringido a los 'cumplidores' destruye la aleatorización porque la adherencia es un factor de autoselección que sesga los grupos.",
+        "correct": "¡Impecable! La aleatorización garantiza grupos equivalentes antes del tratamiento; si luego seleccionas solo a los cumplidores, comparas grupos autoseleccionados. Por eso JARS exige análisis por intención de tratar (ITT).",
+        "incorrect": "No es correcto. El análisis restringido a los 'cumplidores' destruye la aleatorización porque la adherencia es un factor de autoselección que sesga los grupos.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "reporte_jars_diseno",
+      "lectura_ref": "Shadish et al. (2002), cap. 10; APA JARS-Quant (2020)",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0032",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un investigador aplica un análisis de covarianza (ANCOVA) ajustando por el pretest para comparar dos grupos intactos que tenían medias marcadamente diferentes antes del tratamiento. ¿Por qué el ANCOVA no resuelve plenamente el sesgo de selección?",
+      "opciones": [
+        "Porque cuando los grupos difieren en constructos de fondo, el error de medición en la covariable genera subcorrección y puede incluso crear diferencias artificiales por regresión diferencial.",
+        "Porque el ANCOVA es un modelo puramente exploratorio que no permite calcular niveles de significación p.",
+        "Porque las directrices de Shadish prohíben el uso de covariables continuas en diseños cuasiexperimentales.",
+        "Porque el ANCOVA exige obligatoriamente que las muestras hayan sido seleccionadas con reposición."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El ajuste estadístico post hoc no neutraliza las diferencias cualitativas preexistentes ni las variables no medidas; si el pretest tiene error de medida, el ajuste estadístico subestima el sesgo.",
+        "incorrecta": "No es correcto. El ANCOVA no crea equivalencia mágica entre grupos naturalmente disímiles: el error de medida de la covariable deja sesgo residual y puede agravar la regresión diferencial.",
+        "correct": "¡Exacto! Porque cuando los grupos difieren en constructos de fondo, el error de medición en la covariable genera subcorrección y puede incluso crear diferencias artificiales por regresión diferencial.",
+        "incorrect": "No es correcto. El ANCOVA no crea equivalencia mágica entre grupos naturalmente disímiles: el error de medida de la covariable deja sesgo residual y puede agravar la regresión diferencial.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 3; Shadish et al. (2002), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0033",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un estudio cuasiexperimental multisitio, el grupo experimental está en un hospital público y el de control en una clínica privada. Durante el estudio, el hospital público sufre una huelga laboral prolongada. ¿Cómo se clasifica formalmente esta amenaza?",
+      "opciones": [
+        "Interacción selección-historia (un evento histórico contemporáneo ocurrió exclusivamente en uno de los grupos debido a su localización diferencial).",
+        "Regresión a la media pura producto del instrumento de evaluación psicológica.",
+        "Maduración diferencial generada por el tipo de patología atendida en ambos centros.",
+        "Efecto reactivo de la medición previa según la paradoja de Lord."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Se trata de una interacción selección-historia: la pertenencia a un grupo particular expuso a los sujetos a un acontecimiento histórico externo que no afectó al otro grupo.",
+        "incorrecta": "No es correcto. Cuando un evento histórico impacta de forma asimétrica debido a la procedencia natural de los grupos, se configura una interacción selección-historia.",
+        "correct": "¡Correcto! Interacción selección-historia (un evento histórico contemporáneo ocurrió exclusivamente en uno de los grupos debido a su localización diferencial).",
+        "incorrect": "No es correcto. Cuando un evento histórico impacta de forma asimétrica debido a la procedencia natural de los grupos, se configura una interacción selección-historia.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 3; Shadish et al. (2002), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0034",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un instrumento de evaluación de depresión tiene una cota máxima de 60 puntos. En el pretest, ambos grupos puntúan en promedio 57 puntos. Tras una intervención, el grupo experimental no muestra aumento significativo de puntaje. ¿Qué artefacto metodológico de medición está operando?",
+      "opciones": [
+        "Efecto techo (*ceiling effect*), que comprime la escala en la parte superior e impide detectar incrementos reales en la variable dependiente.",
+        "Efecto suelo (*floor effect*), provocado por la selección de participantes asintomáticos.",
+        "Inestabilidad temporal de la varianza atribuible a la atrición no diferencial.",
+        "Reactividad cruzada entre el tratamiento X y la historia contemporánea."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El efecto techo ocurre cuando los puntajes basales están tan cerca del límite superior de la escala que el instrumento no tiene rango sensible para registrar incrementos.",
+        "incorrecta": "No es correcto. Estar en el tope superior de la escala es un efecto techo, impidiendo evidenciar mejorías o aumentos adicionales.",
+        "correct": "¡Exacto! Efecto techo (*ceiling effect*), que comprime la escala en la parte superior e impide detectar incrementos reales en la variable dependiente.",
+        "incorrect": "No es correcto. Estar en el tope superior de la escala es un efecto techo, impidiendo evidenciar mejorías o aumentos adicionales.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Kerlinger y Lee (2002), cap. 18; Kazdin (2016), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0035",
+      "tipo": "opcion_multiple",
+      "enunciado": "Alberto Marradi (2007) argumenta que la extrapolación del modelo experimental de las ciencias naturales a las ciencias sociales tropieza con un límite epistemológico estructural. ¿Cuál es?",
+      "opciones": [
+        "Que los seres humanos y las situaciones sociales no son fungibles ni intercambiables, impidiendo asumir que dos individuos o grupos reaccionen como muestras idénticas de un metal.",
+        "Que la estadística inferencial fue formulada exclusivamente para variables agronómicas por Ronald Fisher.",
+        "Que la psicología experimental carece de instrumentos psicométricos con fiabilidad comprobada.",
+        "Que los comités éticos impiden en todos los casos la manipulación de variables en seres humanos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Brillante! Marradi señala que los objetos en ciencias sociales tienen historicidad y personalidad irreductible (no son fungibles), por lo que aislar variables en el laboratorio altera la naturaleza del fenómeno.",
+        "incorrecta": "No es correcto. La crítica de fondo de Marradi es la no fungibilidad de los sujetos humanos y la artificialidad inherente a suponerlos intercambiables como átomos o metales.",
+        "correct": "¡Brillante! Que los seres humanos y las situaciones sociales no son fungibles ni intercambiables, impidiendo asumir que dos individuos o grupos reaccionen como muestras idénticas de un metal.",
+        "incorrect": "No es correcto. La crítica de fondo de Marradi es la no fungibilidad de los sujetos humanos y la artificialidad inherente a suponerlos intercambiables como átomos o metales.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "triangulo_kish",
+      "lectura_ref": "Marradi, Archenti y Piovani (2007), cap. 1",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0036",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un ensayo aleatorizado de psicoterapia, el grupo experimental recibe 12 sesiones presenciales con un terapeuta experto y el grupo control queda en lista de espera. Si el grupo experimental mejora, ¿qué problema de «validez de constructo de la causa» queda abierto?",
+      "opciones": [
+        "El efecto observado puede deberse a factores comunes no específicos (tiempo de atención, calidez, alianza terapéutica, expectativas de curación) y no al contenido específico de la técnica.",
+        "Se ha cometido una violación al supuesto de homocedasticidad de varianzas en el análisis.",
+        "La asignación aleatoria fue defectuosa porque no se utilizó muestreo polietápico.",
+        "La atrición experimental fue provocada directamente por la falta de un pretest."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Comparar una terapia activa contra lista de espera confunde la técnica con los factores inespecíficos (atención, relación humana, esperanza). Para aislar la técnica se requiere un control activo o placebo psicológico.",
+        "incorrecta": "No es correcto. El problema es la validez de constructo de la causa: el paquete X incluye atención, empatía y tiempo, que pueden explicar el cambio antes que los ingredientes teóricos de la técnica.",
+        "correct": "¡Exacto! El efecto observado puede deberse a factores comunes no específicos (tiempo de atención, calidez, alianza terapéutica, expectativas de curación) y no al contenido específico de la técnica.",
+        "incorrect": "No es correcto. El problema es la validez de constructo de la causa: el paquete X incluye atención, empatía y tiempo, que pueden explicar el cambio antes que los ingredientes teóricos de la técnica.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "disenos_experimentales",
+      "lectura_ref": "Shadish et al. (2002), cap. 3; Kazdin (2016), cap. 6",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0037",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un estudio sobre burnout en organizaciones, se asigna la intervención al departamento de Recursos Humanos y se usa como control al departamento de Finanzas. A las tres semanas, los funcionarios de Finanzas expresan resentimiento por no recibir el programa y reducen intencionalmente su colaboración. ¿Cómo define Shadish et al. (2002) esta amenaza?",
+      "opciones": [
+        "Desmoralización compensatoria (*compensatory demoralization*) o resentimiento del grupo control.",
+        "Sensibilización de la prueba previa por aprendizaje reactivo.",
+        "Regresión hacia la media provocada por el clima institucional.",
+        "Invalidez de conclusión estadística por efecto de colinealidad."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Ocurre cuando el grupo control percibe que fue privado de un beneficio deseable y reacciona con desgano, desmoralización o resentimiento, deteriorando artificialmente sus puntajes.",
+        "incorrecta": "No es correcto. Se clasifica como desmoralización compensatoria: el empeoramiento del grupo control no es natural, sino producto del resentimiento por no recibir la intervención.",
+        "correct": "¡Correcto! Desmoralización compensatoria (*compensatory demoralization*) o resentimiento del grupo control.",
+        "incorrect": "No es correcto. Se clasifica como desmoralización compensatoria: el empeoramiento del grupo control no es natural, sino producto del resentimiento por no recibir la intervención.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "amenazas_validez_interna",
+      "lectura_ref": "Shadish et al. (2002), cap. 3",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0038",
+      "tipo": "opcion_multiple",
+      "enunciado": "Kerlinger y Lee (2002) señalan el principio MAX-MIN-CON como la lógica rectora de todo diseño experimental. ¿Qué significan estos tres términos?",
+      "opciones": [
+        "Maximizar la varianza sistemática primaria (efecto de X), minimizar la varianza de error y controlar la varianza de variables extrañas.",
+        "Maximizar el número de participantes, minimizar el costo operativo y confirmar la hipótesis nula.",
+        "Maximizar el coeficiente alfa, minimizar las preguntas abiertas y controlar la variabilidad demográfica.",
+        "Mantener la potencia estadística, inferir la dirección causal y contrastar con datos no paramétricos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El principio MAX-MIN-CON manda: maximizar la varianza provocada por la variable independiente, minimizar la varianza de error aleatorio y controlar la varianza de factores extraños.",
+        "incorrecta": "No es correcto. Es la máxima fundacional de Kerlinger: Maximizar la varianza sistemática primaria, Minimizar la varianza de error y Controlar las variables extrañas.",
+        "correct": "¡Exacto! Maximizar la varianza sistemática primaria (efecto de X), minimizar la varianza de error y controlar la varianza de variables extrañas.",
+        "incorrect": "No es correcto. Es la máxima fundacional de Kerlinger: Maximizar la varianza sistemática primaria, Minimizar la varianza de error y Controlar las variables extrañas.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "notacion_diseno",
+      "lectura_ref": "Kerlinger y Lee (2002), cap. 18",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0039",
+      "tipo": "opcion_multiple",
+      "enunciado": "En una investigación cuasiexperimental sobre rendimiento académico con pretest y postest en dos escuelas, el grupo de la escuela intervenida parte con 40 puntos y sube a 60, mientras el grupo control parte con 70 puntos y sube a 75. ¿Por qué la afirmación de que el programa fue un éxito rotundo puede ser un artefacto de interacción selección-maduración?",
+      "opciones": [
+        "Porque los grupos parten de niveles basales muy distintos: grupos con diferente ritmo evolutivo previo maduran a velocidades diferentes de forma espontánea.",
+        "Porque el grupo control sufrió necesariamente de desmoralización compensatoria.",
+        "Porque cuando las medias basales difieren en más de 20 puntos, el valor de p pierde validez asintótica.",
+        "Porque la escuela control debió haber sido eliminada por falta de adherencia al protocolo institucional."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Cuando dos grupos parten de estados tan disímiles, sus trayectorias naturales de crecimiento (ritmo de aprendizaje o maduración) son diferentes, simulando una interacción con el tratamiento.",
+        "incorrecta": "No es correcto. La disparidad inicial extrema sugiere que ambos grupos pertenecen a poblaciones distintas con pendientes de maduración espontánea divergentes (interacción selección-maduración).",
+        "correct": "¡Correcto! Porque los grupos parten de niveles basales muy distintos: grupos con diferente ritmo evolutivo previo maduran a velocidades diferentes de forma espontánea.",
+        "incorrect": "No es correcto. La disparidad inicial extrema sugiere que ambos grupos pertenecen a poblaciones distintas con pendientes de maduración espontánea divergentes (interacción selección-maduración).",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Campbell y Stanley (1966), cap. 3; Shadish et al. (2002), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    },
+    {
+      "id": "u05-0040",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué ocurre con la estimación causal en un diseño de discontinuidad en la regresión si los participantes logran manipular intencionalmente su puntaje para quedar justo por debajo del punto de corte y recibir el beneficio?",
+      "opciones": [
+        "Se viola el supuesto fundamental de asignación no manipulable en el umbral, invalidando la inferencia causal al reintroducir autoselección sistemática.",
+        "El diseño pasa automáticamente a ser un experimento aleatorizado verdadero con doble ciego.",
+        "Aumenta la potencia estadística local al concentrar más observaciones alrededor del corte.",
+        "Se debe cambiar la notación de X por una variable instrumental calculada con ecuaciones estructurales."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! La validez del diseño de discontinuidad se basa en que los participantes no pueden manipular con precisión su posición relativa respecto al corte. Si lo logran, se produce autoselección y se derrumba la inferencia causal.",
+        "incorrecta": "No es correcto. Si los participantes pueden falsear o manipular su puntaje para cruzar el umbral, se reintroduce el sesgo de selección y se destruye el modelo de discontinuidad.",
+        "correct": "¡Exacto! Se viola el supuesto fundamental de asignación no manipulable en el umbral, invalidando la inferencia causal al reintroducir autoselección sistemática.",
+        "incorrect": "No es correcto. Si los participantes pueden falsear o manipular su puntaje para cruzar el umbral, se reintroduce el sesgo de selección y se destruye el modelo de discontinuidad.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "disenos_pre_cuasi",
+      "lectura_ref": "Shadish et al. (2002), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u05"
+    }
+  ]
 }
