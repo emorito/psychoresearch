@@ -1,0 +1,305 @@
+[
+ {
+  "id": "u01",
+  "slug": "u01",
+  "number": 1,
+  "title": "Raíces de la investigación en psicología",
+  "etapa": "Fundamentos",
+  "proposito": "comprender cómo la psicología se constituyó como ciencia desde el laboratorio experimental y qué formas de razonamiento sostienen hoy la investigación.",
+  "resultados": [
+   "situar los orígenes experimentales de la psicología (Fechner, Wundt, Ebbinghaus) y lo que se ganó y se perdió con el laboratorio;",
+   "distinguir razonamiento inductivo, deductivo y abductivo y sus usos en la investigación;",
+   "reconocer las cuatro tradiciones actuales: experimental, instrumental, asociativa y social, y cualitativa."
+  ],
+  "eslabon_cadena": "problema",
+  "fuentes_canon": [
+   "McGuigan, *Psicología experimental*",
+   "Kerlinger y Lee, cap. 1",
+   "Danziger, *Constructing the Subject*",
+   "Marradi, Archenti y Piovani, cap. 1"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u02",
+  "slug": "u02",
+  "number": 2,
+  "title": "Ciencia abierta, replicación y poder estadístico",
+  "etapa": "Fundamentos",
+  "proposito": "entender la crisis de replicación y las prácticas que hacen creíble un hallazgo.",
+  "resultados": [
+   "explicar la crisis de replicación y sus causas;",
+   "identificar prácticas cuestionables (p-hacking, HARKing, publicación selectiva);",
+   "valorar el preregistro, el poder estadístico y la estimación con intervalos."
+  ],
+  "eslabon_cadena": "problema",
+  "fuentes_canon": [
+   "*APA Handbook of Research Methods in Psychology*, vol. 3",
+   "Cumming y Calin-Jageman, *Introduction to the New Statistics*"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u03",
+  "slug": "u03",
+  "number": 3,
+  "title": "Del problema al proyecto",
+  "etapa": "Planteamiento",
+  "proposito": "formular un problema, sus preguntas, objetivos e hipótesis coherentes entre sí.",
+  "resultados": [
+   "delimitar un problema sin simplificarlo;",
+   "formular objetivos como propósitos cognitivos, no como actividades;",
+   "derivar hipótesis contrastables y reconocer cuándo un estudio no las necesita."
+  ],
+  "eslabon_cadena": "objetivos",
+  "fuentes_canon": [
+   "Kerlinger y Lee, caps. 2 y 3",
+   "Ravitch y Riggan, *Reason & Rigor*"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u04",
+  "slug": "u04",
+  "number": 4,
+  "title": "Medición y psicometría",
+  "etapa": "Investigación instrumental",
+  "proposito": "construir, adaptar, elegir y evaluar instrumentos de medición psicológica.",
+  "resultados": [
+   "distinguir fuente, técnica e instrumento;",
+   "interpretar fiabilidad (alfa, omega, error estándar de medida) según el uso;",
+   "argumentar la validez con las cinco fuentes de evidencia;",
+   "planificar la construcción o adaptación de un instrumento."
+  ],
+  "eslabon_cadena": "instrumentos",
+  "fuentes_canon": [
+   "Nunnally y Bernstein, *Psychometric Theory*",
+   "AERA, APA y NCME, *Standards* (2014)",
+   "*APA Handbook*, vol. 1"
+  ],
+  "subtemas": [
+   "tecnicas",
+   "instrumentos",
+   "calidad_medicion",
+   "etica",
+   "medicion",
+   "construccion_adaptacion"
+  ],
+  "subtemas_labels": [
+   "Técnicas de recolección",
+   "Instrumentos",
+   "Validez y confiabilidad",
+   "Ética e integridad",
+   "Medir en psicología",
+   "Construir, adaptar y elegir instrumentos"
+  ],
+  "estado_contenido": "disponible",
+  "autoauditoria": [
+   "¿Cada instrumento responde a un objetivo y cada objetivo tiene su instrumento?",
+   "¿Distinguí fuente, técnica e instrumento en mi método?",
+   "¿El instrumento mide mi constructo tal como lo definí operacionalmente?",
+   "¿Tiene evidencias de validez en una población parecida a la mía? Si no, ¿lo declaré como limitación?",
+   "¿Voy a reportar la fiabilidad en mi propia muestra?",
+   "Si es una escala adaptada o traducida, ¿seguí un procedimiento y lo voy a describir?",
+   "¿Tengo permiso o licencia para usar el instrumento?",
+   "¿Previ consentimiento, anonimización y custodia de los datos?"
+  ]
+ },
+ {
+  "id": "u05",
+  "slug": "u05",
+  "number": 5,
+  "title": "Diseño experimental y cuasiexperimental",
+  "etapa": "Diseños",
+  "proposito": "elegir y auditar diseños que permitan inferencias causales.",
+  "resultados": [
+   "dibujar diseños con la notación X · O · R;",
+   "identificar amenazas a la validez interna según el diseño;",
+   "decidir entre experimento, cuasiexperimento u observación con los criterios de Kish."
+  ],
+  "eslabon_cadena": "diseno",
+  "fuentes_canon": [
+   "Campbell y Stanley",
+   "Shadish, Cook y Campbell",
+   "Kish, *Statistical Design for Research*",
+   "McGuigan"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u06",
+  "slug": "u06",
+  "number": 6,
+  "title": "Diseños de caso único",
+  "etapa": "Diseños",
+  "proposito": "diseñar y analizar estudios N = 1 en contextos clínicos y aplicados.",
+  "resultados": [
+   "describir los diseños AB, ABAB y de línea base múltiple;",
+   "evaluar el control experimental en un caso único;",
+   "interpretar datos de caso único visual y estadísticamente."
+  ],
+  "eslabon_cadena": "diseno",
+  "fuentes_canon": [
+   "Kazdin, *Research Design in Clinical Psychology*"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u07",
+  "slug": "u07",
+  "number": 7,
+  "title": "Investigación asociativa y por encuestas",
+  "etapa": "Diseños",
+  "proposito": "planificar estudios correlacionales, predictivos y de encuesta, y conocer sus límites causales.",
+  "resultados": [
+   "distinguir estrategias descriptivas, asociativas y manipulativas;",
+   "reconocer los límites de la inferencia causal sin manipulación;",
+   "planificar una encuesta: población, instrumento, administración y no respuesta."
+  ],
+  "eslabon_cadena": "diseno",
+  "fuentes_canon": [
+   "Kish, *Survey Sampling*",
+   "Ato, López y Benavente (2013)",
+   "Kerlinger y Lee"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u08",
+  "slug": "u08",
+  "number": 8,
+  "title": "Muestreo e inferencia",
+  "etapa": "Diseños",
+  "proposito": "justificar de quién se obtiene evidencia y cuántos casos hacen falta, sin pseudocálculo.",
+  "resultados": [
+   "distinguir población, marco, muestra planificada y lograda;",
+   "elegir la justificación del tamaño según el propósito: estimar, contrastar, modelar o comprender;",
+   "reconocer y corregir pseudocálculos frecuentes;",
+   "declarar límites de inferencia o transferencia."
+  ],
+  "eslabon_cadena": "muestra",
+  "fuentes_canon": [
+   "Kish, *Survey Sampling*",
+   "Cochran, *Sampling Techniques*",
+   "Snedecor y Cochran, *Statistical Methods*"
+  ],
+  "subtemas": [
+   "poblacion",
+   "muestra",
+   "muestreo",
+   "corpus"
+  ],
+  "subtemas_labels": [
+   "Población y universo",
+   "Muestra",
+   "Tipos de muestreo",
+   "Corpus y unidades"
+  ],
+  "estado_contenido": "disponible",
+  "autoauditoria": [
+   "¿Nombré a la población objetivo con criterios, lugar y tiempo?",
+   "¿Existe un marco muestral? ¿De dónde sale y quiénes no están en él?",
+   "¿Mi selección es por sorteo? Si no lo es, ¿borré toda mención a margen de error y nivel de confianza?",
+   "¿El tamaño está justificado según mi propósito (estimar, contrastar, modelar o comprender)?",
+   "Si hice análisis de potencia, ¿cité la fuente del tamaño de efecto?",
+   "¿Previ la tasa de respuesta y cómo voy a describir a quienes no respondieron?",
+   "Si mi estudio es cualitativo, ¿escribí la regla de cierre?"
+  ]
+ },
+ {
+  "id": "u09",
+  "slug": "u09",
+  "number": 9,
+  "title": "Investigación cualitativa",
+  "etapa": "Tradiciones",
+  "proposito": "diseñar y evaluar estudios cualitativos con rigor propio.",
+  "resultados": [
+   "distinguir fenomenología, teoría fundamentada y análisis temático;",
+   "planificar la selección de casos y la regla de cierre;",
+   "aplicar criterios de rigor y reflexividad."
+  ],
+  "eslabon_cadena": "diseno",
+  "fuentes_canon": [
+   "*APA Handbook*, vol. 2",
+   "Ruth, Wutich y Bernard, *Handbook of Teaching Qualitative and Mixed Research Methods*"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u10",
+  "slug": "u10",
+  "number": 10,
+  "title": "Investigación social, comunitaria y mixta",
+  "etapa": "Tradiciones",
+  "proposito": "integrar métodos y trabajar con comunidades sin perder rigor.",
+  "resultados": [
+   "caracterizar la investigación-acción participativa;",
+   "elegir un diseño mixto y justificar la integración;",
+   "reconocer los límites del modelo experimental en lo social."
+  ],
+  "eslabon_cadena": "diseno",
+  "fuentes_canon": [
+   "Marradi, Archenti y Piovani",
+   "Brough, *Advanced Research Methods for Applied Psychology*"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u11",
+  "slug": "u11",
+  "number": 11,
+  "title": "Análisis de datos cuantitativos y cualitativos",
+  "etapa": "Análisis",
+  "proposito": "elegir y reportar el análisis coherente con la pregunta y el diseño.",
+  "resultados": [
+   "elegir el análisis cuantitativo según variables y diseño;",
+   "reportar tamaños de efecto e intervalos, no solo valores p;",
+   "codificar datos cualitativos con trazabilidad y usar IA con guías explícitas."
+  ],
+  "eslabon_cadena": "analisis",
+  "fuentes_canon": [
+   "*APA Handbook*, vol. 3",
+   "Snedecor y Cochran"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ },
+ {
+  "id": "u12",
+  "slug": "u12",
+  "number": 12,
+  "title": "Ética, escritura y comunicación",
+  "etapa": "Comunicación",
+  "proposito": "comunicar la investigación con integridad y según los estándares de reporte.",
+  "resultados": [
+   "aplicar los principios éticos a todo el ciclo de investigación;",
+   "redactar según APA 7 y las listas JARS;",
+   "declarar el uso de IA de forma responsable."
+  ],
+  "eslabon_cadena": "analisis",
+  "fuentes_canon": [
+   "APA, JARS (cuantitativo, cualitativo y mixto)",
+   "*Publication Manual of the APA* (7.ª ed.)"
+  ],
+  "subtemas": [],
+  "subtemas_labels": [],
+  "estado_contenido": "en_preparacion"
+ }
+]

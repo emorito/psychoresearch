@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>psychoResearch · Investigación en psicología</title>
+  <meta name="description" content="Programa abierto de investigación en psicología: de la tradición experimental a la investigación instrumental, cualitativa y social.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <style>
+    .home-hero { padding-block: var(--s-8) var(--s-6); }
+    .home-hero h1 { max-width: 22ch; margin-block: var(--s-2) var(--s-4); font-size: var(--fs-7); }
+    .home-hero p.lead { max-width: var(--measure); color: var(--ink-2); font-size: var(--fs-3); }
+    .eyebrow-home { color: var(--accent); font-size: var(--fs-1); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+    .traditions { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-3); margin-block: var(--s-6); }
+    .traditions .card h3 { margin: 0 0 var(--s-2); font-size: var(--fs-3); }
+    .traditions .card p { margin: 0; color: var(--ink-2); font-size: var(--fs-1); }
+    .section-title { margin-block: var(--s-7) var(--s-4); }
+    .units-group { margin-bottom: var(--s-6); }
+    .units-group h3 { margin-bottom: var(--s-3); color: var(--ink-3); font-family: var(--font-sans); font-size: var(--fs-1); letter-spacing: .06em; text-transform: uppercase; }
+    .units { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--s-3); }
+    .unit-card { display: flex; flex-direction: column; gap: var(--s-2); padding: var(--s-5); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: inherit; text-decoration: none; box-shadow: var(--shadow); transition: border-color var(--dur); }
+    .unit-card:hover, .unit-card:focus-visible { border-color: var(--primary); }
+    .unit-card__num { color: var(--accent); font-family: var(--font-serif); font-size: var(--fs-6); line-height: 1; }
+    .unit-card__title { margin: 0; font-family: var(--font-serif); font-size: var(--fs-4); font-weight: 600; }
+    .unit-card__purpose { margin: 0; color: var(--ink-2); font-size: var(--fs-1); }
+    .unit-card .badge { align-self: flex-start; }
+    .routes { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-3); }
+    .routes .card p { margin: var(--s-2) 0 0; color: var(--ink-2); font-size: var(--fs-1); }
+    .canon { columns: 2; column-gap: var(--s-6); color: var(--ink-2); font-size: var(--fs-1); }
+    .canon li { break-inside: avoid; margin-bottom: var(--s-2); }
+    .site-footer { margin-top: var(--s-8); padding-block: var(--s-6); border-top: 1px solid var(--line); color: var(--ink-3); font-size: var(--fs-1); }
+    @media (max-width: 900px) { .traditions { grid-template-columns: repeat(2, 1fr); } .routes { grid-template-columns: 1fr; } }
+    @media (max-width: 560px) { .traditions { grid-template-columns: 1fr; } .canon { columns: 1; } .home-hero h1 { font-size: var(--fs-6); } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__title">psychoResearch</span>
+        <span class="brand__meta">Investigación en psicología</span>
+      </a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="#unidades">Unidades</a>
+        <a href="#rutas">Rutas</a>
+        <a href="#canon">Obras de referencia</a>
+        <label class="theme-control" for="theme-select">Tema
+          <select id="theme-select" aria-label="Tema de color">
+            <option value="light">Claro</option>
+            <option value="dark">Oscuro</option>
+            <option value="auto">Automático</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="container">
+    <section class="home-hero">
+      <p class="eyebrow-home">Programa abierto</p>
+      <h1>Investigar en psicología, del laboratorio a la comunidad</h1>
+      <p class="lead">La psicología científica nació en el laboratorio experimental y hoy se hace con cuatro tradiciones del mismo rango. Este programa las recorre con un mismo criterio: cada decisión del proyecto tiene que poder justificarse.</p>
+    </section>
+
+    <section aria-labelledby="tradiciones-titulo">
+      <h2 id="tradiciones-titulo" class="section-title">Cuatro tradiciones</h2>
+      <div class="traditions">
+        <article class="card"><h3>Experimental</h3><p>Manipular, controlar y aleatorizar para inferir causas. La raíz de la disciplina.</p></article>
+        <article class="card"><h3>Instrumental</h3><p>Construir y validar instrumentos: sin buena medición no hay buena evidencia.</p></article>
+        <article class="card"><h3>Asociativa y social</h3><p>Encuestas, estudios correlacionales y comunitarios: la psicología fuera del laboratorio.</p></article>
+        <article class="card"><h3>Cualitativa</h3><p>Comprender significados, procesos y experiencias con un rigor propio.</p></article>
+      </div>
+    </section>
+
+    <section id="unidades" aria-labelledby="unidades-titulo">
+      <h2 id="unidades-titulo" class="section-title">Unidades</h2>
+      <div id="units-root" aria-live="polite"><p class="muted">Cargando unidades…</p></div>
+    </section>
+
+    <section id="rutas" aria-labelledby="rutas-titulo">
+      <h2 id="rutas-titulo" class="section-title">Rutas sugeridas</h2>
+      <div class="routes">
+        <article class="card"><h3>Estudiante de grado</h3><p>Recorre las unidades en orden: fundamentos, planteamiento, diseños, tradiciones, análisis y comunicación.</p></article>
+        <article class="card"><h3>Tesista</h3><p>Empieza por la unidad 3 con tu propio problema, y luego sigue la cadena de tu proyecto: medición, diseño, muestreo, análisis y reporte.</p></article>
+        <article class="card"><h3>Profesional que investiga</h3><p>Unidades 4, 6 y 8: medir bien, evaluar cambios en un caso y justificar con cuántos casos se puede concluir algo.</p></article>
+      </div>
+    </section>
+
+    <section id="canon" aria-labelledby="canon-titulo">
+      <h2 id="canon-titulo" class="section-title">Obras de referencia</h2>
+      <p class="muted">Todo el contenido se ancla en estas obras. Cuando dos de ellas discrepan, se muestra la tensión en lugar de elegir una.</p>
+      <ul class="canon">
+        <li>McGuigan, F. J. <em>Psicología experimental</em>.</li>
+        <li>Kerlinger, F. N. y Lee, H. B. <em>Investigación del comportamiento</em>.</li>
+        <li>Kazdin, A. E. <em>Research Design in Clinical Psychology</em>.</li>
+        <li>Cooper, H. (Ed.). <em>APA Handbook of Research Methods in Psychology</em>.</li>
+        <li>American Psychological Association. <em>Journal Article Reporting Standards (JARS)</em>.</li>
+        <li>Campbell, D. T. y Stanley, J. C. <em>Experimental and Quasi-Experimental Designs for Research</em>.</li>
+        <li>Nunnally, J. C. y Bernstein, I. H. <em>Psychometric Theory</em>.</li>
+        <li>Kish, L. <em>Statistical Design for Research</em>.</li>
+        <li>Snedecor, G. W. y Cochran, W. G. (1989). <em>Statistical Methods</em>.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">psychoResearch · Programa abierto de investigación en psicología.</div>
+  </footer>
+
+  <script type="module">
+    import { loadStore, saveStore } from "./assets/js/store.js";
+    const store = loadStore();
+    const select = document.querySelector("#theme-select");
+    const setTheme = (t) => { document.documentElement.dataset.theme = t; select.value = t; store.theme = t; saveStore(store); };
+    setTheme(store.theme ?? "auto");
+    select.addEventListener("change", () => setTheme(select.value));
+
+    const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const root = document.querySelector("#units-root");
+    try {
+      const units = await (await fetch("data/modulos.json")).json();
+      const groups = [];
+      for (const u of units) {
+        let g = groups.find((x) => x.name === u.etapa);
+        if (!g) groups.push(g = { name: u.etapa, units: [] });
+        g.units.push(u);
+      }
+      root.innerHTML = groups.map((g) => `
+        <div class="units-group"><h3>${esc(g.name)}</h3><div class="units">${g.units.map((u) => `
+          <a class="unit-card" href="modulo.html?m=${esc(u.id)}">
+            <span class="unit-card__num">${String(u.number).padStart(2, "0")}</span>
+            <p class="unit-card__title">${esc(u.title)}</p>
+            <p class="unit-card__purpose">Propósito: ${esc(u.proposito)}</p>
+            ${u.estado_contenido === "disponible" ? '<span class="badge badge--ok">Disponible</span>' : '<span class="badge">En preparación</span>'}
+          </a>`).join("")}</div></div>`).join("");
+    } catch (e) {
+      root.innerHTML = '<p class="muted">No se pudieron cargar las unidades.</p>';
+    }
+  </script>
+</body>
+</html>
