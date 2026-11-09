@@ -173,9 +173,32 @@
     "fuentes_canon": [
       "Kazdin, *Research Design in Clinical Psychology*"
     ],
-    "subtemas": [],
-    "subtemas_labels": [],
-    "estado_contenido": "en_preparacion"
+    "subtemas": [
+      "logica_n1",
+      "linea_base",
+      "disenos_caso_unico",
+      "inspeccion_visual",
+      "evaluacion_datos_n1",
+      "significacion_clinica"
+    ],
+    "subtemas_labels": [
+      "Lógica experimental en N=1",
+      "Línea base y funciones",
+      "Diseños AB, ABAB y LBM",
+      "Inspección visual y criterios",
+      "Evaluación estadística y autocorrelación",
+      "Significación clínica y social"
+    ],
+    "estado_contenido": "en_preparacion",
+    "autoauditoria": [
+      "¿Definí la conducta objetivo de forma operacional, observable y con un registro continuo repetido en el tiempo?",
+      "¿Verifiqué la confiabilidad interobservadores mediante acuerdo porcentual o kappa en una proporción suficiente de sesiones?",
+      "¿Mi línea base cuenta con estabilidad suficiente (sin pendiente de mejoría espontánea y con variabilidad acotada) antes de iniciar B?",
+      "Si utilicé un diseño ABAB, ¿es la conducta teóricamente reversible y es éticamente admisible retirar el tratamiento?",
+      "Si elegí línea base múltiple, ¿me aseguré de que las conductas, contextos o participantes sean funcionalmente independientes?",
+      "¿Presenté una gráfica continua de series de tiempo donde cada punto individual es visible con líneas divisorias de fases?",
+      "¿Complementé la significación experimental con una evaluación de la significación clínica o impacto social en la vida cotidiana del participante?"
+    ]
   },
   {
     "id": "u07",

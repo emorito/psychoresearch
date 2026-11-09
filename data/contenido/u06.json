@@ -1,16 +1,364 @@
 {
- "modulo_id": "u06",
- "capsula": {
-  "title": "Diseños de caso único",
-  "subtitle": "Unidad en preparación",
-  "blocks": [
-   {
-    "type": "highlight",
-    "title": "En preparación",
-    "text": "Esta unidad se está redactando a partir de las obras de referencia: Kazdin, *Research Design in Clinical Psychology*."
-   }
+  "modulo_id": "u06",
+  "origen": "borrador_ia",
+  "capsula": {
+    "title": "Diseños de caso único (N = 1): control experimental sin promedios",
+    "subtitle": "Línea base, reversión ABAB, línea base múltiple e interpretación visual y estadística",
+    "blocks": [
+      {
+        "type": "highlight",
+        "title": "La lógica experimental en el individuo (Kazdin)",
+        "text": "En la investigación clínica y aplicada no siempre es posible ni conveniente promediar grupos de pacientes: el promedio grupal puede ocultar que la mitad de los participantes mejoró y la otra mitad empeoró. Los diseños de caso único (N = 1) no son anécdotas clínicas ni estudios de caso narrativos descontrolados: son experimentos rigurosos donde el propio participante actúa como su propio control a lo largo del tiempo mediante evaluación continua, prospectiva y sistemática."
+      },
+      {
+        "type": "table",
+        "title": "Estudio de caso tradicional vs. Diseño experimental de caso único (N = 1)",
+        "headers": [
+          "Característica",
+          "Estudio de caso anecdótico / narrativo",
+          "Diseño experimental de caso único (Kazdin)"
+        ],
+        "rows": [
+          [
+            "**Medición**",
+            "Impresiones clínicas globales, retrospectivas o asistemáticas.",
+            "Medición continua, prospectiva, objetiva y repetida de la conducta objetivo."
+          ],
+          [
+            "**Línea base**",
+            "Ausente o reconstruida de memoria.",
+            "Fase formal de línea base (A) para describir y predecir la trayectoria del problema."
+          ],
+          [
+            "**Manipulación**",
+            "Se aplica el tratamiento sin fases de control estructuradas.",
+            "Manipulación programada con fases de intervención y condiciones de control sistemático."
+          ],
+          [
+            "**Control experimental**",
+            "Nulo: no descarta historia, maduración ni efecto placebo.",
+            "Demostración rigurosa de control mediante reversión o introducciones escalonadas."
+          ],
+          [
+            "**Evaluación de datos**",
+            "Narrativa subjetiva del evaluador.",
+            "Inspección visual estructurada y métricas cuantitativas de no solapamiento."
+          ]
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "La lógica de la línea base (Fase A)",
+        "items": [
+          {
+            "badge": "Función 1",
+            "title": "Función descriptiva",
+            "text": "Describe el nivel actual y el patrón de la conducta del individuo antes de la intervención (frecuencia, intensidad, duración o latencia)."
+          },
+          {
+            "badge": "Función 2",
+            "title": "Función predictiva",
+            "text": "Proyecta cómo se comportaría la variable en el futuro inmediato si no se aplicara ninguna intervención terapéutica (hipótesis de continuidad)."
+          },
+          {
+            "badge": "Estabilidad",
+            "title": "Nivel, tendencia y variabilidad",
+            "text": "Una línea base estable requiere ausencia de pendiente de mejoría espontánea y baja variabilidad. Una línea base que ya está mejorando por sí sola impide atribuir el cambio a la fase B."
+          },
+          {
+            "badge": "Extensión",
+            "title": "Número de observaciones",
+            "text": "Se recomiendan al menos de 3 a 5 puntos de datos estables (Kazdin) para establecer con solvencia la predicción basal antes de introducir el tratamiento."
+          }
+        ]
+      },
+      {
+        "type": "cards",
+        "title": "Arquitectura de los diseños de caso único",
+        "items": [
+          {
+            "badge": "A  B",
+            "title": "Diseño AB (cuasiexperimental)",
+            "text": "Línea base seguida de tratamiento. Es el punto de partida clínico elemental, pero carece de replicación intra-sujeto: no puede descartar historia contemporánea ni maduración como causas del cambio."
+          },
+          {
+            "badge": "A  B  A  B",
+            "title": "Diseño de reversión o retirada (ABAB)",
+            "text": "Alterna línea base (A) y tratamiento (B). Si la conducta mejora en B, empeora al retirar X en el segundo A, y vuelve a mejorar en el segundo B, se demuestra un control experimental contundente."
+          },
+          {
+            "badge": "LBM",
+            "title": "Línea base múltiple (LBM)",
+            "text": "Introduce el tratamiento de manera escalonada en el tiempo a través de diferentes conductas, diferentes contextos o diferentes participantes. No requiere retirar el tratamiento."
+          },
+          {
+            "badge": "Criterio",
+            "title": "Diseño de criterio cambiante",
+            "text": "La intervención establece metas o umbrales sucesivos cada vez más exigentes (p. ej., reducir cigarrillos de 20 a 15, luego a 10, luego a 5). La conducta se ajusta paso a paso a cada criterio."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Variantes de la línea base múltiple (Kazdin, cap. 8)",
+        "headers": [
+          "Tipo de LBM",
+          "Sobre qué se interviene",
+          "Cómo demuestra el control experimental",
+          "Requisito metodológico crítico"
+        ],
+        "rows": [
+          [
+            "**Entre conductas** (*across behaviors*)",
+            "Dos o más conductas independientes de una misma persona.",
+            "Cada conducta cambia solo cuando se le aplica la intervención, mientras las restantes permanecen estables en línea base.",
+            "Independencia de las conductas: que no exista generalización o derrame prematuro entre ellas."
+          ],
+          [
+            "**Entre contextos** (*across settings*)",
+            "La misma conducta en dos o más escenarios (casa, escuela, trabajo).",
+            "El cambio se produce puntualmente al introducir el tratamiento en cada escenario sucesivo.",
+            "Los escenarios deben ser funcionalmente diferenciados y autónomos."
+          ],
+          [
+            "**Entre participantes** (*across individuals*)",
+            "La misma conducta en varios individuos evaluados de forma concurrente.",
+            "Cada participante responde en el momento específico en que inicia su fase B, descartando eventos históricos comunes.",
+            "Líneas base de duración variable y concurrentes en el tiempo."
+          ]
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "El dilema ético y técnico de la retirada (ABAB)",
+        "text": "El diseño ABAB enfrenta dos restricciones críticas: 1) **Limitación técnica (irreversibilidad):** Si la intervención implicó un aprendizaje consolidado (como la enseñanza de habilidades de lectura o reestructuración cognitiva internalizada), la conducta no regresa a los niveles basales al retirar X. 2) **Limitación ética:** Retirar una intervención que ha detenido conductas autolesivas, agresivas o de riesgo vital en un paciente es deontológicamente inaceptable. En ambas situaciones, el diseño de **línea base múltiple** constituye la alternativa metodológica y ética indicada."
+      },
+      {
+        "type": "cards",
+        "title": "Evaluación de datos: criterios de inspección visual (Kazdin)",
+        "items": [
+          {
+            "badge": "Nivel",
+            "title": "Cambio de nivel",
+            "text": "Desplazamiento vertical abrupto en la magnitud media de la variable entre el final de una fase y el inicio inmediato de la siguiente."
+          },
+          {
+            "badge": "Tendencia",
+            "title": "Cambio de tendencia (pendiente)",
+            "text": "Modificación en la dirección o inclinación de la serie de datos (p. ej., de una serie plana o ascendente a un descenso pronunciado sostenido)."
+          },
+          {
+            "badge": "Latencia",
+            "title": "Latencia del cambio",
+            "text": "Rapidez con que se manifiesta el cambio tras la introducción o retirada del tratamiento: a menor latencia temporal, mayor evidencia de control."
+          },
+          {
+            "badge": "No solapamiento",
+            "title": "No solapamiento de datos",
+            "text": "Proporción de puntos de la fase B que caen fuera del rango de los puntos observados en la fase A previa (ausencia de superposición)."
+          },
+          {
+            "badge": "Consistencia",
+            "title": "Consistencia entre fases",
+            "text": "Reproducibilidad del patrón observado cada vez que se repite la misma condición experimental (fases A consistentes entre sí y fases B consistentes entre sí)."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Evaluación estadística en N = 1 y el reto de la autocorrelación",
+        "headers": [
+          "Enfoque analítico",
+          "En qué consiste",
+          "Ventajas",
+          "Límites o supuestos"
+        ],
+        "rows": [
+          [
+            "**Inspección visual pura**",
+            "Examen gráfico de nivel, tendencia, latencia y solapamiento.",
+            "Fácil comprensión clínica; detecta efectos evidentes y clínicamente contundentes.",
+            "Baja confiabilidad interjueces; insensible a efectos moderados; engañada por variabilidad."
+          ],
+          [
+            "**Métricas de no solapamiento**",
+            "PND (*Percentage of Nonoverlapping Data*), PEM, NAP, Tau-U.",
+            "Cuantifican el tamaño del efecto sin violar supuestos de distribución paramétrica.",
+            "PND es hipersensible a valores atípicos; Tau-U controla la tendencia previa de la línea base."
+          ],
+          [
+            "**Modelos lineales segmentados**",
+            "Regresión lineal o modelos multinivel ajustados por autocorrelación serial.",
+            "Modelan simultáneamente cambios en nivel, pendientes y dependencia temporal.",
+            "Requieren series largas de datos (idealmente más de 20-30 observaciones)."
+          ],
+          [
+            "**Pruebas de aleatorización**",
+            "Permutación de los momentos de intervención fijados al azar.",
+            "Inferencia estadística exacta sin supuestos paramétricos ni dependencia serial.",
+            "Exige aleatorizar a priori el momento específico de inicio de las fases."
+          ]
+        ]
+      },
+      {
+        "type": "highlight",
+        "title": "Significación experimental frente a significación clínica (Kazdin)",
+        "text": "Un tratamiento puede alcanzar un cambio estadísticamente confiable o visualmente nítido (significación experimental) y, sin embargo, dejar al paciente en un rango disfuncional que no resuelve su problema en la vida cotidiana. La **significación clínica o social** evalúa si la magnitud del cambio devuelve al individuo al funcionamiento normativo de su grupo de referencia (*comparación normativa*) o si sus allegados perciben una mejoría cualitativa sustancial en su calidad de vida (*evaluación subjetiva*)."
+      },
+      {
+        "type": "checklist",
+        "title": "Qué tiene que quedar reportado (APA, JARS)",
+        "items": [
+          "Definición operacional precisa de la conducta objetivo y procedimiento de registro sistemático.",
+          "Confiabilidad del registro interobservadores (acuerdo porcentual o kappa con detalle de sesiones evaluadas).",
+          "Diseño estructural adoptado (AB, ABAB, línea base múltiple, criterio cambiante) y justificación de por qué no se emplearon otros diseños.",
+          "Gráfica completa de series de tiempo con todos los puntos de datos individuales visibles y líneas divisorias de fase explícitas.",
+          "Número de observaciones por fase y criterios de estabilidad aplicados para autorizar el cambio de fase.",
+          "Fidelidad de la intervención (protocolo, verificación de adherencia del profesional y control de cointervenciones).",
+          "Criterios de inspección visual explicitados y cálculo de tamaño del efecto (Tau-U, NAP o PND) con sus intervalos si procede.",
+          "Evaluación de la significación clínica y social del cambio (comparación normativa, impacto funcional o evaluación subjetiva)."
+        ]
+      }
+    ]
+  },
+  "casos": {
+    "miniCases": [
+      {
+        "id": "u06_c1",
+        "title": "Caso 1 · El dilema de la retirada en conductas autolesivas",
+        "context": "Psicología Clínica y del Desarrollo · Diseños de retirada vs. Línea base múltiple",
+        "scenario": "Un terapeuta trabaja con un adolescente que presenta episodios severos de golpes en la cabeza (conducta autolesiva). Tras registrar una línea base de 5 sesiones (Fase A) con un promedio de 18 episodios por hora, aplica un protocolo de reforzamiento diferencial de conductas incompatibles (Fase B). En cuatro sesiones, la frecuencia cae a 1 episodio por hora. Para «comprobar el control experimental», el supervisor propone retirar la intervención (segunda Fase A) para verificar si los golpes regresan.",
+        "question": "¿Por qué es deontológica y metodológicamente inaceptable retirar la intervención en este caso? ¿Qué diseño experimental alternativo debió planificarse para demostrar control sin poner en riesgo al paciente?",
+        "hints": [
+          "Considera el principio ético de no maleficencia cuando una conducta implica riesgo físico inminente.",
+          "Recuerda qué diseño escalonado permite demostrar control experimental sin necesidad de retirar un tratamiento eficaz."
+        ],
+        "analysis": "1. **Inadmisibilidad ética:** Retirar deliberadamente un tratamiento que redujo drásticamente una conducta que compromete la integridad física del paciente viola el principio bioético de no maleficencia y las pautas éticas de Kazdin.\n2. **Diseño alternativo indicado:** Debió utilizarse un **diseño de línea base múltiple** (por ejemplo, entre contextos: hogar, escuela y taller; o entre participantes). En la línea base múltiple, el control experimental se demuestra por la introducción escalonada en el tiempo: la conducta disminuye únicamente cuando y donde se introduce la intervención, sin requerir nunca el retorno a condiciones basales de riesgo.",
+        "keyConcept": "El diseño de línea base múltiple evita el dilema ético y el riesgo clínico de retirar un tratamiento eficaz"
+      },
+      {
+        "id": "u06_c2",
+        "title": "Caso 2 · El derrame prematuro en una línea base múltiple entre conductas",
+        "context": "Psicología Educativa · Independencia de conductas en LBM",
+        "scenario": "Una psicopedagoga diseña una línea base múltiple entre tres conductas académicas en un escolar: 1) resolver ejercicios de sumas, 2) resolver ejercicios de restas, y 3) resolver problemas combinados. Registra línea base en las tres tareas. Al día 5 introduce una estrategia metacognitiva de autorregulación solo para las sumas. Inmediatamente, el rendimiento en sumas sube del 30 % al 85 %, pero simultáneamente el rendimiento en restas y en problemas combinados sube al 80 % antes de haber recibido la intervención.",
+        "question": "¿Qué fenómeno metodológico ocurrió y qué consecuencia tiene sobre la demostración del control experimental en el diseño?",
+        "hints": [
+          "Observa si la estrategia enseñada es específica de una sola tarea o si es una habilidad generalizable.",
+          "¿Qué exige la lógica de la línea base múltiple respecto a las conductas no intervenidas mientras esperan en fase A?"
+        ],
+        "analysis": "Ocurrió una **generalización prematura o falta de independencia entre conductas** (derrame de la intervención). La estrategia de autorregulación metacognitiva es un proceso cognitivo transversal que el niño aplicó de inmediato a todas las operaciones matemáticas.\n\n**Consecuencia sobre el diseño:** Se destruye la demostración del control experimental de la línea base múltiple. La lógica del diseño exige que las conductas no tratadas permanezcan estables en sus niveles basales hasta que se les aplique el tratamiento. Si cambian al mismo tiempo que la primera conducta, no es posible descartar empíricamente que una variable histórica extraña (o la maduración) haya producido la mejora global.",
+        "keyConcept": "La línea base múltiple entre conductas exige independencia funcional para evitar la generalización prematura"
+      },
+      {
+        "id": "u06_c3",
+        "title": "Caso 3 · La ilusión de eficacia ante una línea base con tendencia favorable",
+        "context": "Psicología de la Salud · Estabilidad y tendencia en la línea base",
+        "scenario": "Un estudiante evalúa la eficacia de una técnica de relajación sobre la frecuencia de cefaleas tensionales en una paciente. Registra los episodios diarios durante una semana (Línea base A): los días 1 a 7 la paciente reporta 9, 8, 7, 6, 5, 4 y 3 cefaleas. El día 8 el estudiante introduce la técnica de relajación (Fase B) y en los días siguientes la paciente registra 2, 1, 1 y 0 cefaleas. El informe concluye: «La técnica de relajación demostró un efecto causal rotundo al eliminar las cefaleas».",
+        "question": "¿Por qué es inválida la conclusión del estudiante a partir de la inspección de la línea base? ¿Qué criterio de estabilidad se vulneró?",
+        "hints": [
+          "Examina la pendiente o tendencia de los puntos de datos antes de que se aplicara la relajación (días 1 al 7).",
+          "¿La conducta ya estaba mejorando espontáneamente antes de que comenzara el tratamiento?"
+        ],
+        "analysis": "La conclusión es inválida porque la línea base presentaba una **tendencia descendente previa marcada y favorable** (la frecuencia venía bajando de 9 a 3 antes de iniciar la intervención). \n\n**Vulneración metodológica:** Se violó el requisito indispensable de **estabilidad en la línea base**. Una tendencia favorable previa proyecta que el síntoma iba a continuar reduciéndose de manera espontánea por maduración, recuperación natural o historia. La mejoría observada en la fase B es una mera prolongación de la tendencia preexistente y no puede atribuirse causalmente a la técnica de relajación. Ante una línea base con tendencia favorable, el investigador debe esperar hasta que la serie se estabilice antes de introducir el tratamiento.",
+        "keyConcept": "Una línea base con tendencia favorable previa enmascara el efecto del tratamiento e invalida la inferencia causal"
+      }
+    ],
+    "simulation": {
+      "title": "Simulación 06 · Planificación de un diseño N = 1 para intervención en ansiedad ante hablar en público",
+      "context": "Estás diseñando una intervención de desensibilización sistemática asistida por biofeedback para una persona con ansiedad social severa que experimenta taquicardia incapacitante al exponer oralmente.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paso 1 · Determinar la condición de la línea base antes de intervenir",
+          "prompt": "Durante los primeros cuatro días de registro basal, la frecuencia cardíaca media de la participante al exponer sube bruscamente de 110 a 145 lpm con altísima variabilidad. Tu supervisor te consulta si ya puedes comenzar el biofeedback mañana.",
+          "options": [
+            {
+              "text": "Extiendo la fase de línea base por varios días más hasta que la respuesta cardíaca muestre una tendencia estable y un patrón de variabilidad predecible que sirva como punto de referencia sólido.",
+              "isOptimal": true,
+              "feedback": "¡Correcto! Introducir una intervención en medio de una serie altamente inestable o con tendencia errática impide proyectar qué habría ocurrido sin tratamiento."
+            },
+            {
+              "text": "Aplico inmediatamente la intervención para aprovechar que los puntajes están en su nivel más alto.",
+              "isOptimal": false,
+              "feedback": "Intervenir sobre un pico extremo genera riesgo de confundir el efecto del tratamiento con una regresión estadística a la media o fluctuación espontánea."
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Paso 2 · Elegir la estructura de diseño idónea frente a la naturaleza del tratamiento",
+          "prompt": "La desensibilización sistemática enseña habilidades cognitivas y de relajación que la paciente internaliza de forma permanente. ¿Qué estructura de diseño eliges?",
+          "options": [
+            {
+              "text": "Diseño de línea base múltiple (por ejemplo, entre contextos: presentaciones ante amigos, reuniones de trabajo y auditorio formal) porque el aprendizaje de relajación es irreversible y no volverá a los niveles basales.",
+              "isOptimal": true,
+              "feedback": "¡Excelente! Cuando el tratamiento produce un aprendizaje consolidado (irreversibilidad), el diseño ABAB falla técnicamente; la línea base múltiple es la opción metodológica idónea."
+            },
+            {
+              "text": "Diseño de retirada ABAB, asegurándome de pedirle a la paciente que olvide lo aprendido durante la segunda fase A.",
+              "isOptimal": false,
+              "feedback": "El aprendizaje no se puede 'desaprender' por instrucción voluntaria: la retirada en conductas irreversibles no produce retorno al nivel basal."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Paso 3 · Evaluar la significación clínica más allá de la estadística",
+          "prompt": "Al concluir la intervención, el índice Tau-U muestra un no solapamiento estadísticamente significativo (Tau-U = 0,82, p < 0,01). Sin embargo, la paciente declara que sigue sintiendo terror paralizante y evita postularse a ascensos laborales. ¿Cómo interpretas el resultado?",
+          "options": [
+            {
+              "text": "Declaro que se alcanzó significación experimental pero no se logró significación clínica o social suficiente, ya que la paciente continúa con limitaciones funcionales graves en su vida diaria.",
+              "isOptimal": true,
+              "feedback": "¡Impecable! Kazdin subraya que el rigor experimental (no solapamiento) debe distinguirse de la significación clínica: si el paciente no recupera un funcionamiento adaptativo normativo, la intervención no es plenamente exitosa."
+            },
+            {
+              "text": "Afirmo en el informe que la paciente está totalmente curada porque el valor p fue menor a 0,01 y el tamaño de efecto fue alto.",
+              "isOptimal": false,
+              "feedback": "Confundir la significación estadística o experimental con la recuperación clínica funcional es un error severo en investigación aplicada."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "videos": [],
+    "readings": [
+      {
+        "title": "Research Design in Clinical Psychology (Capítulo 8: Single-Case Experimental Research Designs)",
+        "url": "assets/reading/Kazdin_Research_Design_Clinical_Psychology.pdf",
+        "type": "pdf",
+        "description": "Texto rector de Alan Kazdin sobre la lógica de la línea base, diseños ABAB, líneas base múltiples e inspección visual."
+      },
+      {
+        "title": "The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 Statement",
+        "url": "assets/reading/SCRIBE_Statement_2016.pdf",
+        "type": "pdf",
+        "description": "Guía internacional estandarizada de reporte transparente para estudios de caso único en ciencias de la conducta."
+      },
+      {
+        "title": "Single-Case Experimental Designs: Characteristics, Changes, and Challenges",
+        "url": "assets/reading/Kazdin_Single_Case_Challenges.pdf",
+        "type": "pdf",
+        "description": "Revisión contemporánea de Kazdin sobre el análisis estadístico de no solapamiento, autocorrelación y significación social."
+      }
+    ],
+    "notebooks": []
+  },
+  "autoauditoria": [
+    "¿Definí la conducta objetivo de forma operacional, observable y con un registro continuo repetido en el tiempo?",
+    "¿Verifiqué la confiabilidad interobservadores mediante acuerdo porcentual o kappa en una proporción suficiente de sesiones?",
+    "¿Mi línea base cuenta con estabilidad suficiente (sin pendiente de mejoría espontánea y con variabilidad acotada) antes de iniciar B?",
+    "Si utilicé un diseño ABAB, ¿es la conducta teóricamente reversible y es éticamente admisible retirar el tratamiento?",
+    "Si elegí línea base múltiple, ¿me aseguré de que las conductas, contextos o participantes sean funcionalmente independientes?",
+    "¿Presenté una gráfica continua de series de tiempo donde cada punto individual es visible con líneas divisorias de fases?",
+    "¿Complementé la significación experimental con una evaluación de la significación clínica o impacto social en la vida cotidiana del participante?"
+  ],
+  "fuentes": [
+    "Kazdin, A. E. (2011). Single-case research designs: Methods for clinical and applied settings (2nd ed.). Oxford University Press.",
+    "Kazdin, A. E. (2016). Research design in clinical psychology (5th ed.). Pearson.",
+    "Kazdin, A. E. (2019). Single-case experimental designs: Characteristics, changes, and challenges. Journal of the American Academy of Child & Adolescent Psychiatry, 58(6), 565-568.",
+    "Tate, R. L., Perdices, M., Rosenkoetter, U., Shadish, W., Vohra, S., Barlow, D. H., Horner, R., Kazdin, A., Kratochwill, T., McDonald, S., Sampson, M., Shamseer, L., Togher, L., Travers, J., & Wilson, B. (2016). The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 statement. Physical Therapy, 96(7), e1-e10.",
+    "American Psychological Association. (2020). Journal article reporting standards for quantitative research (JARS-Quant). American Psychologist."
   ]
- },
- "casos": [],
- "recursos": {}
 }

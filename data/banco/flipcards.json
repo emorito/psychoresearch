@@ -208,5 +208,75 @@
     "frente": "¿Qué es un diseño cuasiexperimental de grupo control no equivalente?",
     "dorso": "Compara un grupo intervenido contra uno de control intacto con pretest y postest, pero sin asignación aleatoria (O₁ X O₂ / - - - / O₁ O₂).",
     "tag": "Diseños cuasiexperimentales"
+  },
+  {
+    "id": "u06-fc-0001",
+    "modulo_id": "u06",
+    "frente": "¿Qué es un diseño experimental de caso único (N = 1)?",
+    "dorso": "Un experimento riguroso donde el participante actúa como su propio control mediante evaluación continua y sistemática a lo largo de fases.",
+    "tag": "Lógica N=1"
+  },
+  {
+    "id": "u06-fc-0002",
+    "modulo_id": "u06",
+    "frente": "¿Cuáles son las dos funciones de la línea base (Fase A)?",
+    "dorso": "Función descriptiva (evaluar el nivel actual) y función predictiva (proyectar la trayectoria futura de la conducta si no se interviene).",
+    "tag": "Línea base"
+  },
+  {
+    "id": "u06-fc-0003",
+    "modulo_id": "u06",
+    "frente": "¿Cómo demuestra el control experimental el diseño ABAB?",
+    "dorso": "Al mostrar que la conducta mejora en B, empeora al retirar X (segundo A) y vuelve a mejorar al reintroducir X (segundo B).",
+    "tag": "Diseños de caso único"
+  },
+  {
+    "id": "u06-fc-0004",
+    "modulo_id": "u06",
+    "frente": "¿Cuándo está contraindicado el diseño de retirada ABAB?",
+    "dorso": "Cuando la conducta implica riesgo físico inminente (autolesiones) o cuando el tratamiento produce aprendizajes consolidados irreversibles.",
+    "tag": "Diseños de caso único"
+  },
+  {
+    "id": "u06-fc-0005",
+    "modulo_id": "u06",
+    "frente": "¿Cómo funciona la línea base múltiple (LBM)?",
+    "dorso": "Introduce el tratamiento de manera escalonada en el tiempo a través de diferentes conductas, situaciones o participantes.",
+    "tag": "Diseños de caso único"
+  },
+  {
+    "id": "u06-fc-0006",
+    "modulo_id": "u06",
+    "frente": "¿Qué es el diseño de criterio cambiante?",
+    "dorso": "Establece metas o criterios sucesivos progresivos; el control se prueba si la conducta se ajusta puntualmente a cada nuevo umbral.",
+    "tag": "Diseños de caso único"
+  },
+  {
+    "id": "u06-fc-0007",
+    "modulo_id": "u06",
+    "frente": "¿Cuáles son los criterios esenciales de la inspección visual?",
+    "dorso": "Cambio de nivel, cambio de tendencia (pendiente), latencia del cambio, no solapamiento de datos y consistencia entre fases.",
+    "tag": "Inspección visual"
+  },
+  {
+    "id": "u06-fc-0008",
+    "modulo_id": "u06",
+    "frente": "¿Qué problema metodológico causa la autocorrelación serial en N = 1?",
+    "dorso": "Viola la independencia de los datos, distorsiona los errores estándar e infla los falsos positivos (error tipo I) en pruebas t y ANOVA clásicos.",
+    "tag": "Evaluación estadística N=1"
+  },
+  {
+    "id": "u06-fc-0009",
+    "modulo_id": "u06",
+    "frente": "¿Qué ventaja tiene la métrica Tau-U frente al PND?",
+    "dorso": "Controla estadísticamente la tendencia previa monótona en la línea base y es menos sensible a valores atípicos que el PND.",
+    "tag": "Evaluación estadística N=1"
+  },
+  {
+    "id": "u06-fc-0010",
+    "modulo_id": "u06",
+    "frente": "¿Qué distingue la significación experimental de la significación clínica?",
+    "dorso": "La significación experimental prueba que el cambio se debió a X; la clínica prueba que el cambio tiene impacto adaptativo real en la vida del sujeto.",
+    "tag": "Significación clínica"
   }
 ]

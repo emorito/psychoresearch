@@ -1,4 +1,1045 @@
 {
- "modulo_id": "u06",
- "items": []
+  "modulo_id": "u06",
+  "items": [
+    {
+      "id": "u06-0001",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué distingue metodológicamente a un diseño experimental de caso único (N = 1) de un estudio de caso anecdótico tradicional?",
+      "opciones": [
+        "La medición continua, prospectiva y repetida de la conducta objetivo y la manipulación sistemática de las condiciones experimentales.",
+        "El número total de pacientes evaluados, que debe ser obligatoriamente superior a 10.",
+        "El uso exclusivo de pruebas psicométricas proyectivas administradas en una sola sesión.",
+        "La selección de los participantes mediante muestreo aleatorio estratificado nacional."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Los diseños de caso único son experimentos verdaderos intra-sujeto con evaluación continua, medición objetiva y manipulación planificada de fases.",
+        "incorrecta": "No es correcto. La diferencia radica en la medición continua, la línea base formal y el control experimental riguroso, no en el tamaño de la muestra.",
+        "correct": "¡Correcto! La medición continua, prospectiva y repetida de la conducta objetivo y la manipulación sistemática de las condiciones experimentales.",
+        "incorrect": "No es correcto. La diferencia radica en la medición continua, la línea base formal y el control experimental riguroso, no en el tamaño de la muestra.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "logica_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 1",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0002",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la lógica de los diseños de caso único de Kazdin, ¿cuáles son las dos funciones esenciales de la fase de línea base (Fase A)?",
+      "opciones": [
+        "Función descriptiva (evaluar el nivel actual de la conducta) y función predictiva (proyectar la trayectoria futura sin intervención).",
+        "Función explicativa y función de generalización poblacional.",
+        "Función terapéutica y función de eliminación del síntoma.",
+        "Función de cálculo de baremos y función de estandarización psicométrica."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! La línea base describe la magnitud actual de la conducta y predice cómo continuaría comportándose si no se introdujera el tratamiento.",
+        "incorrecta": "No es correcto. Las dos funciones nucleares de la línea base según Kazdin son describir el estado presente y predecir la trayectoria futura sin tratamiento.",
+        "correct": "¡Exacto! Función descriptiva (evaluar el nivel actual de la conducta) y función predictiva (proyectar la trayectoria futura sin intervención).",
+        "incorrect": "No es correcto. Las dos funciones nucleares de la línea base según Kazdin son describir el estado presente y predecir la trayectoria futura sin tratamiento.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "linea_base",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0003",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué el diseño básico AB se considera preexperimental o de control limitado?",
+      "opciones": [
+        "Porque carece de replicación del efecto dentro del sujeto: no puede descartar que el cambio se deba a historia o maduración contemporánea.",
+        "Porque la letra B indica que la intervención fue administrada de manera incompleta.",
+        "Porque no permite calcular el promedio aritmético de las puntuaciones de las fases.",
+        "Porque la APA prohíbe el uso de diseños de solo dos fases en psicología clínica."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! En un diseño AB hay una sola transición; si ocurre un cambio coincidente con B, no hay evidencia de que no haya sido causado por un evento histórico fortuito.",
+        "incorrecta": "No es correcto. La debilidad del diseño AB radica en la ausencia de replicación intra-sujeto: no hay una segunda fase que confirme que el cambio depende de X.",
+        "correct": "¡Correcto! Porque carece de replicación del efecto dentro del sujeto: no puede descartar que el cambio se deba a historia o maduración contemporánea.",
+        "incorrect": "No es correcto. La debilidad del diseño AB radica en la ausencia de replicación intra-sujeto: no hay una segunda fase que confirme que el cambio depende de X.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 3",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0004",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿En qué consiste la demostración de control experimental en un diseño de reversión o retirada ABAB?",
+      "opciones": [
+        "En demostrar que la conducta mejora en B, empeora o regresa hacia la línea base al retirar X en el segundo A, y vuelve a mejorar en el segundo B.",
+        "En comparar al participante con un grupo normativo de 100 personas sanas.",
+        "En administrar el tratamiento sin que el terapeuta conozca qué técnica está aplicando.",
+        "En mantener la línea base durante un período superior a seis meses ininterrumpidos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El retorno de la conducta a niveles basales en la retirada (segundo A) y su posterior recuperación en el segundo B prueba que la conducta está bajo control de X.",
+        "incorrecta": "No es correcto. El control en ABAB se evidencia cuando la conducta fluctúa de manera contingente a la presencia y ausencia repetida del tratamiento.",
+        "correct": "¡Exacto! En demostrar que la conducta mejora en B, empeora o regresa hacia la línea base al retirar X en el segundo A, y vuelve a mejorar en el segundo B.",
+        "incorrect": "No es correcto. El control en ABAB se evidencia cuando la conducta fluctúa de manera contingente a la presencia y ausencia repetida del tratamiento.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 4",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0005",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la característica definitoria de un diseño de línea base múltiple (LBM)?",
+      "opciones": [
+        "Se introduce el tratamiento de forma escalonada en el tiempo a través de diferentes conductas, situaciones o participantes.",
+        "Se aplican múltiples tratamientos psicológicos de manera simultánea en la misma sesión.",
+        "Se realizan evaluaciones únicamente al inicio y al final de un año calendario.",
+        "Se calcula una regresión múltiple para predecir la conducta a partir de variables demográficas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La línea base múltiple escalona temporalmente el inicio de la intervención a través de series basales independientes, demostrando control sin retirada.",
+        "incorrecta": "No es correcto. El rasgo esencial de la línea base múltiple es la introducción secuencial o escalonada de la intervención a través de líneas base de longitud variable.",
+        "correct": "¡Correcto! Se introduce el tratamiento de forma escalonada en el tiempo a través de diferentes conductas, situaciones o participantes.",
+        "incorrect": "No es correcto. El rasgo esencial de la línea base múltiple es la introducción secuencial o escalonada de la intervención a través de líneas base de longitud variable.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0006",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuáles son las tres modalidades clásicas del diseño de línea base múltiple descritas por Kazdin?",
+      "opciones": [
+        "Entre conductas, entre situaciones (o contextos) y entre individuos (o participantes).",
+        "Entre pretests, postests y seguimientos.",
+        "Entre grupos de edad, géneros y niveles socioeconómicos.",
+        "Entre observadores ciegos, terapeutas y pacientes."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Las tres modalidades canónicas son entre conductas (en la misma persona), entre situaciones (mismo individuo en distintos contextos) y entre personas.",
+        "incorrecta": "No es correcto. Las tres modalidades clásicas establecidas por Kazdin son: entre conductas, entre situaciones/contextos y entre individuos.",
+        "correct": "¡Exacto! Entre conductas, entre situaciones (o contextos) y entre individuos (o participantes).",
+        "incorrect": "No es correcto. Las tres modalidades clásicas establecidas por Kazdin son: entre conductas, entre situaciones/contextos y entre individuos.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0007",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un diseño de criterio cambiante (*changing-criterion design*), ¿cómo se evidencia el control experimental?",
+      "opciones": [
+        "Demostrando que la conducta del sujeto se ajusta fielmente a cada uno de los umbrales o metas progresivas fijadas en fases sucesivas.",
+        "Retirando completamente el tratamiento después de alcanzar la primera meta.",
+        "Comparando el desempeño del sujeto con un grupo control que no recibe metas.",
+        "Modificando aleatoriamente la conducta objetivo en cada sesión clínica."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Si la conducta cambia paso a paso siguiendo el nivel exigido por cada criterio sucesivo (p. ej., reducción escalonada de consumo), se comprueba el control experimental.",
+        "incorrecta": "No es correcto. El control en el criterio cambiante se prueba si la conducta se ciñe puntualmente al valor meta fijado en cada subfase consecutiva.",
+        "correct": "¡Correcto! Demostrando que la conducta del sujeto se ajusta fielmente a cada uno de los umbrales o metas progresivas fijadas en fases sucesivas.",
+        "incorrect": "No es correcto. El control en el criterio cambiante se prueba si la conducta se ciñe puntualmente al valor meta fijado en cada subfase consecutiva.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 6",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0008",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la inspección visual de datos de caso único, ¿qué designa el «cambio de nivel»?",
+      "opciones": [
+        "La discrepancia o salto vertical en la magnitud de la conducta entre el último punto de una fase y el primer punto de la siguiente.",
+        "La dirección o pendiente angular que describe la serie de datos a lo largo del tiempo.",
+        "El número total de sesiones requeridas para completar una fase.",
+        "El coeficiente de correlación entre dos observadores independientes."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El cambio de nivel refiere al salto abrupto en la altura o promedio de la serie de datos inmediatamente después del cambio de fase.",
+        "incorrecta": "No es correcto. El nivel describe la altura o magnitud media de la variable; el salto entre fases adyacentes es el cambio de nivel.",
+        "correct": "¡Exacto! La discrepancia o salto vertical en la magnitud de la conducta entre el último punto de una fase y el primer punto de la siguiente.",
+        "incorrect": "No es correcto. El nivel describe la altura o magnitud media de la variable; el salto entre fases adyacentes es el cambio de nivel.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "inspeccion_visual",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0009",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la inspección visual, ¿qué representa la «tendencia» o «pendiente» (*trend/slope*) de una serie de datos?",
+      "opciones": [
+        "La dirección general ascendente, descendente o plana que describe la variable a lo largo de las sesiones de una fase.",
+        "La variabilidad o dispersión de los puntos alrededor de la mediana.",
+        "El porcentaje de datos que se solapan entre las fases A y B.",
+        "El tiempo exacto transcurrido entre el estímulo y la respuesta del paciente."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La tendencia expresa la inclinación sistemática de los datos: si la conducta está aumentando, disminuyendo o manteniéndose estable con el tiempo.",
+        "incorrecta": "No es correcto. La tendencia o pendiente refleja la dirección sistemática de cambio (inclinación) de la serie temporal a lo largo de las sesiones.",
+        "correct": "¡Correcto! La dirección general ascendente, descendente o plana que describe la variable a lo largo de las sesiones de una fase.",
+        "incorrect": "No es correcto. La tendencia o pendiente refleja la dirección sistemática de cambio (inclinación) de la serie temporal a lo largo de las sesiones.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "inspeccion_visual",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0010",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué es la «latencia del cambio» en la evaluación gráfica de un diseño de caso único?",
+      "opciones": [
+        "El lapso temporal o número de sesiones que transcurre entre el inicio de una nueva fase y la aparición del cambio conductual observable.",
+        "El tiempo total que dura la sesión de evaluación clínica.",
+        "La demora en la entrega de los resultados a los comités de bioética.",
+        "El retraso en el cálculo de los estadísticos no paramétricos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! A menor latencia (cambio inmediato tras introducir X), mayor es la probabilidad de que el cambio se deba al tratamiento y no a eventos extraños.",
+        "incorrecta": "No es correcto. La latencia mide la rapidez temporal del impacto: cuánto tarda en manifestarse el cambio una vez implementada la fase.",
+        "correct": "¡Exacto! El lapso temporal o número de sesiones que transcurre entre el inicio de una nueva fase y la aparición del cambio conductual observable.",
+        "incorrect": "No es correcto. La latencia mide la rapidez temporal del impacto: cuánto tarda en manifestarse el cambio una vez implementada la fase.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "inspeccion_visual",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0011",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué diferencia la significación experimental de la significación clínica o social según Alan Kazdin?",
+      "opciones": [
+        "La significación experimental evalúa si el cambio es atribuible con certeza al tratamiento; la significación clínica evalúa si el cambio marca una diferencia real y funcional en la vida cotidiana del paciente.",
+        "La significación experimental utiliza muestras de más de 30 personas y la clínica utiliza un solo sujeto.",
+        "La significación experimental se calcula con la prueba t y la clínica con el coeficiente alfa.",
+        "No existe diferencia; ambos términos son formalmente idénticos en psicoterapia."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Un cambio puede ser experimentalmente nítido pero clínicamente irrelevante si el paciente sigue incapacitado para funcionar en su vida diaria.",
+        "incorrecta": "No es correcto. La significación experimental atañe al control metodológico del efecto; la significación clínica atañe al valor práctico y funcional del cambio para el paciente.",
+        "correct": "¡Correcto! La significación experimental evalúa si el cambio es atribuible con certeza al tratamiento; la significación clínica evalúa si el cambio marca una diferencia real y funcional en la vida cotidiana del paciente.",
+        "incorrect": "No es correcto. La significación experimental atañe al control metodológico del efecto; la significación clínica atañe al valor práctico y funcional del cambio para el paciente.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 11",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0012",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué es indispensable evaluar el acuerdo interobservadores (confiabilidad) en el registro de conductas en estudios de caso único?",
+      "opciones": [
+        "Para asegurar que la medición sea objetiva, consistente y esté libre de sesgos de expectativa o fatiga del observador individual.",
+        "Para cumplir con el teorema del límite central de las distribuciones muestrales.",
+        "Para permitir que los observadores puedan alternarse sin necesidad de registrar la línea base.",
+        "Para evitar la aplicación de pruebas no paramétricas en el informe final."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El acuerdo interobservadores verifica que el sistema de registro mide la conducta real con precisión y que los cambios no son artefactos del evaluador.",
+        "incorrecta": "No es correcto. La confiabilidad interobservadores garantiza que los datos reflejen la conducta del paciente y no fluctuaciones subjetivas del observador.",
+        "correct": "¡Exacto! Para asegurar que la medición sea objetiva, consistente y esté libre de sesgos de expectativa o fatiga del observador individual.",
+        "incorrect": "No es correcto. La confiabilidad interobservadores garantiza que los datos reflejen la conducta del paciente y no fluctuaciones subjetivas del observador.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 1,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0013",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un investigador quiere evaluar una intervención para reducir atracones de comida. Durante la fase A, la frecuencia de atracones muestra una tendencia descendente continua (de 10 a 3 semanales). ¿Qué debe hacer antes de introducir la fase B?",
+      "opciones": [
+        "Extender la línea base hasta que la conducta se estabilice en un patrón plano o ascendente; intervenir mientras mejora impide atribuir el cambio a la intervención.",
+        "Iniciar inmediatamente la fase B para no desaprovechar la receptividad de la paciente.",
+        "Cambiar el registro de atracones por un cuestionario retrospectivo de satisfacción.",
+        "Calcular el coeficiente de regresión y restar 5 puntos a todas las observaciones futuras."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Una tendencia espontánea hacia la mejoría durante la línea base contamina la inferencia: cualquier mejoría en B será indistinguible de la tendencia previa.",
+        "incorrecta": "No es correcto. Nunca se introduce un tratamiento sobre una línea base que ya está mejorando espontáneamente: debe esperarse a que se estabilice.",
+        "correct": "¡Correcto! Extender la línea base hasta que la conducta se estabilice en un patrón plano o ascendente; intervenir mientras mejora impide atribuir el cambio a la intervención.",
+        "incorrect": "No es correcto. Nunca se introduce un tratamiento sobre una línea base que ya está mejorando espontáneamente: debe esperarse a que se estabilice.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "linea_base",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0014",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué obstáculo metodológico impone una línea base caracterizada por una variabilidad extrema y errática?",
+      "opciones": [
+        "Dificulta proyectar la trayectoria futura de la conducta y oscurece la detección de cambios visuales producidos por el tratamiento en la fase B.",
+        "Impide éticamente la aplicación de cualquier tratamiento psicológico.",
+        "Obliga a convertir automáticamente el diseño en un ensayo de grupos aleatorizados.",
+        "Anula la posibilidad de medir la frecuencia de la variable dependiente."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! El 'ruido' o variabilidad excesiva impide saber si un punto en B es producto de la intervención o de una fluctuación aleatoria habitual.",
+        "incorrecta": "No es correcto. La alta variabilidad destruye la función predictiva de la línea base y dificulta discernir visualmente si el tratamiento tuvo un efecto genuino.",
+        "correct": "¡Exacto! Dificulta proyectar la trayectoria futura de la conducta y oscurece la detección de cambios visuales producidos por el tratamiento en la fase B.",
+        "incorrect": "No es correcto. La alta variabilidad destruye la función predictiva de la línea base y dificulta discernir visualmente si el tratamiento tuvo un efecto genuino.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "linea_base",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 2",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0015",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un psicólogo enseña estrategias de lectura comprensiva a un niño usando un diseño ABAB. Al retirar la técnica en la segunda fase A, el rendimiento lector se mantiene alto y no regresa al nivel basal. ¿Por qué ocurre esto?",
+      "opciones": [
+        "Porque la lectura es una conducta de aprendizaje consolidado irreversible: una vez adquirida la habilidad, no se desaprende al cesar la instrucción.",
+        "Porque el pretest provocó una regresión a la media permanente.",
+        "Porque el psicólogo cometió un error grave de fidelidad en la aplicación de la fase A.",
+        "Porque los datos de series temporales sufren siempre de correlación espuria."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Es el problema de irreversibilidad: habilidades motoras o cognitivas consolidadas no vuelven al nivel basal al retirar el tratamiento, invalidando la lógica del ABAB.",
+        "incorrecta": "No es correcto. Ciertas conductas involucran aprendizaje duradero que no desaparece al retirar la técnica; en tales casos el diseño ABAB no es aplicable.",
+        "correct": "¡Correcto! Porque la lectura es una conducta de aprendizaje consolidado irreversible: una vez adquirida la habilidad, no se desaprende al cesar la instrucción.",
+        "incorrect": "No es correcto. Ciertas conductas involucran aprendizaje duradero que no desaparece al retirar la técnica; en tales casos el diseño ABAB no es aplicable.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 4",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0016",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿En qué circunstancias clínicas está formalmente contraindicado utilizar un diseño de reversión o retirada ABAB?",
+      "opciones": [
+        "Cuando la conducta objetivo implica riesgo físico grave (autolesiones, ideación suicida, agresiones severas) o cuando el tratamiento produce aprendizajes irreversibles.",
+        "Cuando el paciente es mayor de 18 años y tiene diagnóstico de trastorno de ansiedad.",
+        "Cuando el estudio cuenta con más de dos observadores independientes simultáneos.",
+        "Cuando la intervención utiliza técnicas cognitivo-conductuales en lugar de psicodinámicas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Retirar una intervención que suprime conductas de riesgo vital es éticamente inaceptable, y aplicarlo en conductas irreversibles es metodológicamente inútil.",
+        "incorrecta": "No es correcto. La retirada está contraindicada por razones éticas ante conductas de riesgo grave y por razones técnicas ante conductas que no se desaprenden.",
+        "correct": "¡Exacto! Cuando la conducta objetivo implica riesgo físico grave (autolesiones, ideación suicida, agresiones severas) o cuando el tratamiento produce aprendizajes irreversibles.",
+        "incorrect": "No es correcto. La retirada está contraindicada por razones éticas ante conductas de riesgo grave y por razones técnicas ante conductas que no se desaprenden.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 4",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0017",
+      "tipo": "opcion_multiple",
+      "enunciado": "En una línea base múltiple entre conductas, ¿por qué es fundamental que las conductas seleccionadas sean funcionalmente independientes?",
+      "opciones": [
+        "Porque si una conducta no intervenida cambia antes de recibir el tratamiento (derrame o generalización), se pierde la demostración del control experimental.",
+        "Porque la APA exige que cada conducta sea evaluada por un profesional con especialidad diferente.",
+        "Porque las conductas correlacionadas impiden el cálculo de la correlación de Pearson.",
+        "Porque las conductas dependientes generan automáticamente sesgo de atrición en el paciente."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Si tratar la conducta 1 hace que la conducta 2 mejore antes de intervenirla, no es posible demostrar que el cambio se debe a la introducción de X y no a factores externos.",
+        "incorrecta": "No es correcto. Si las conductas son interdependientes, la generalización prematura contamina las líneas base no tratadas, invalidando el control experimental.",
+        "correct": "¡Correcto! Porque si una conducta no intervenida cambia antes de recibir el tratamiento (derrame o generalización), se pierde la demostración del control experimental.",
+        "incorrect": "No es correcto. Si las conductas son interdependientes, la generalización prematura contamina las líneas base no tratadas, invalidando el control experimental.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0018",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la ventaja de la línea base múltiple concurrente entre participantes frente a la no concurrente?",
+      "opciones": [
+        "Permite controlar formalmente la amenaza de historia contemporánea, ya que todos los participantes son evaluados en el mismo período cronológico.",
+        "Reduce a la mitad el número de sesiones necesarias para evaluar a cada individuo.",
+        "Permite eliminar la fase de línea base en dos de los tres participantes.",
+        "Evita tener que obtener el consentimiento informado de cada participante por separado."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Al registrar concurrentemente en el tiempo, si un evento histórico externo ocurre, afectaría a todos los sujetos; si el cambio ocurre solo al iniciar X en cada uno, se descarta historia.",
+        "incorrecta": "No es correcto. La concurrencia temporal descarta la historia común: todos los participantes están en observación durante las mismas semanas del calendario.",
+        "correct": "¡Exacto! Permite controlar formalmente la amenaza de historia contemporánea, ya que todos los participantes son evaluados en el mismo período cronológico.",
+        "incorrect": "No es correcto. La concurrencia temporal descarta la historia común: todos los participantes están en observación durante las mismas semanas del calendario.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0019",
+      "tipo": "opcion_multiple",
+      "enunciado": "El índice PND (*Percentage of Nonoverlapping Data*) es una métrica clásica de tamaño de efecto en N = 1. ¿Cuál es su principal debilidad metodológica?",
+      "opciones": [
+        "Es sumamente vulnerable a un solo dato extremo o atípico en la línea base, lo que puede subestimar drásticamente el tamaño del efecto.",
+        "Solo puede calcularse si la serie de datos cuenta con más de 100 observaciones.",
+        "No distingue entre conductas deseables e indeseables en la intervención.",
+        "Exige que los datos se ajusten a una distribución normal multivariada estricta."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Si en la fase A hubo un solo día con un puntaje atípico extremo, todos los puntos de la fase B pueden solaparse con él, dando PND = 0 % pese a una mejoría evidente.",
+        "incorrecta": "No es correcto. El PND se calcula sobre el punto más extremo de la línea base; un solo valor atípico arruina la métrica aun cuando todos los demás datos muestren éxito.",
+        "correct": "¡Correcto! Es sumamente vulnerable a un solo dato extremo o atípico en la línea base, lo que puede subestimar drásticamente el tamaño del efecto.",
+        "incorrect": "No es correcto. El PND se calcula sobre el punto más extremo de la línea base; un solo valor atípico arruina la métrica aun cuando todos los demás datos muestren éxito.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2011), cap. 9; Kazdin (2019)",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0020",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué ventaja ofrece la métrica Tau-U frente al PND tradicional en el análisis de datos de caso único?",
+      "opciones": [
+        "Permite controlar estadísticamente la tendencia previa monótona en la línea base (*baseline trend*) al calcular el no solapamiento.",
+        "Permite reemplazar la fase de línea base por un modelo de imputación múltiple.",
+        "Transforma automáticamente datos discretos en variables biológicas continuas.",
+        "Elimina la necesidad de graficar los datos individuales según la normativa SCRIBE."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Tau-U es una métrica no paramétrica robusta que descuenta la tendencia existente en la línea base, evitando sobreestimar el tamaño del efecto si la serie ya venía cambiando.",
+        "incorrecta": "No es correcto. La fortaleza diferencial de Tau-U radica en su capacidad para ajustar o corregir la tendencia preexistente de la fase de línea base.",
+        "correct": "¡Exacto! Permite controlar estadísticamente la tendencia previa monótona en la línea base (*baseline trend*) al calcular el no solapamiento.",
+        "incorrect": "No es correcto. La fortaleza diferencial de Tau-U radica en su capacidad para ajustar o corregir la tendencia preexistente de la fase de línea base.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2011), cap. 9; Kazdin (2019)",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0021",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Por qué la presencia de «autocorrelación serial» en datos de series temporales invalida el uso de pruebas t de Student o ANOVA estándar?",
+      "opciones": [
+        "Porque viola el supuesto de independencia de los errores, lo que distorsiona el error estándar e infla enormemente la tasa de error tipo I (falsos positivos).",
+        "Porque reduce artificialmente el número de observaciones a menos de 5 casos.",
+        "Porque convierte automáticamente los valores negativos en positivos sin aviso.",
+        "Porque los paquetes estadísticos estándar se bloquean ante datos longitudinales."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! En series temporales, las observaciones sucesivas dependen entre sí. Si aplicas pruebas paramétricas ordinarias, los errores estándar se subestiman y encuentras efectos falsamente significativos.",
+        "incorrecta": "No es correcto. La dependencia temporal (autocorrelación) destruye el supuesto de independencia de las observaciones, disparando la probabilidad de falsos positivos en pruebas clásicas.",
+        "correct": "¡Correcto! Porque viola el supuesto de independencia de los errores, lo que distorsiona el error estándar e infla enormemente la tasa de error tipo I (falsos positivos).",
+        "incorrect": "No es correcto. La dependencia temporal (autocorrelación) destruye el supuesto de independencia de las observaciones, disparando la probabilidad de falsos positivos en pruebas clásicas.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 9",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0022",
+      "tipo": "opcion_multiple",
+      "enunciado": "En las pruebas de aleatorización (*randomization tests*) aplicadas a diseños de caso único, ¿qué elemento se aleatoriza?",
+      "opciones": [
+        "El punto temporal específico en el cual se introduce la intervención entre un conjunto predefinido de momentos viables.",
+        "Los reactivos del instrumento de evaluación conductual.",
+        "El orden de los observadores que asisten a registrar la sesión.",
+        "La asignación del participante a un grupo de terapia farmacológica."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Se fija una ventana admisible de inicio de fase (p. ej., entre las sesiones 5 y 10) y se sortea al azar el momento exacto de inicio, permitiendo inferencia estadística exacta.",
+        "incorrecta": "No es correcto. En N = 1, las pruebas de aleatorización sortean el momento en que se produce el cambio de fase temporal.",
+        "correct": "¡Exacto! El punto temporal específico en el cual se introduce la intervención entre un conjunto predefinido de momentos viables.",
+        "incorrect": "No es correcto. En N = 1, las pruebas de aleatorización sortean el momento en que se produce el cambio de fase temporal.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 9",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0023",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿En qué consiste el método de «comparación normativa» para evaluar la validez social o significación clínica de un cambio?",
+      "opciones": [
+        "En comparar el nivel de conducta del paciente al finalizar el tratamiento con los niveles de un grupo de pares no clínicos o funcionalmente adaptados.",
+        "En contrastar la media del paciente contra la media de los peores casos del servicio de salud.",
+        "En aplicar una prueba psicométrica proyectiva antes y después de cada sesión clínica.",
+        "En exigir que el paciente supere el percentil 99 en escalas de bienestar psicológico."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! La comparación normativa comprueba si el tratamiento logró que el paciente se ubique dentro del rango de funcionamiento de sus pares sanos o adaptados.",
+        "incorrecta": "No es correcto. La comparación normativa evalúa si el nivel posintervención es indistinguible del rango de funcionamiento de pares sin el problema clínico.",
+        "correct": "¡Correcto! En comparar el nivel de conducta del paciente al finalizar el tratamiento con los niveles de un grupo de pares no clínicos o funcionalmente adaptados.",
+        "incorrect": "No es correcto. La comparación normativa evalúa si el nivel posintervención es indistinguible del rango de funcionamiento de pares sin el problema clínico.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 11",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0024",
+      "tipo": "opcion_multiple",
+      "enunciado": "Según Alan Kazdin, ¿cuántos puntos de datos estables se recomiendan como mínimo indispensable en una fase de línea base para permitir una inferencia sólida?",
+      "opciones": [
+        "Al menos 3 a 5 observaciones estables.",
+        "Exactamente 50 observaciones consecutivas.",
+        "Una sola medición previa en profundidad.",
+        "No se requieren observaciones si el paciente cuenta con diagnóstico médico previo."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Kazdin y las directrices SCRIBE recomiendan un mínimo de 3 a 5 puntos de datos estables en la fase A para establecer adecuadamente nivel y tendencia antes de intervenir.",
+        "incorrecta": "No es correcto. La regla de oro metodológica es contar con al menos 3 a 5 observaciones basales estables antes de introducir el tratamiento.",
+        "correct": "¡Exacto! Al menos 3 a 5 observaciones estables.",
+        "incorrect": "No es correcto. La regla de oro metodológica es contar con al menos 3 a 5 observaciones basales estables antes de introducir el tratamiento.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "linea_base",
+      "lectura_ref": "Kazdin (2016), cap. 8; SCRIBE Statement (2016)",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0025",
+      "tipo": "opcion_multiple",
+      "enunciado": "De acuerdo con las directrices SCRIBE (2016) para el reporte de diseños de caso único, ¿cómo deben graficarse los datos primarios?",
+      "opciones": [
+        "Representando cada observación individual con su punto en el tiempo (eje X: sesiones/días; eje Y: conducta), separando las fases con líneas verticales divisorias.",
+        "Ocultando los puntos individuales y presentando únicamente una barra con la media general de cada fase.",
+        "Graficando exclusivamente los casos que mostraron respuesta positiva a la intervención.",
+        "Reemplazando los datos empíricos por una curva teórica suavizada mediante polinomios."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! SCRIBE exige transparencia absoluta: cada punto de datos debe ser visible en el gráfico temporal, delimitando con precisión el inicio y fin de cada fase.",
+        "incorrecta": "No es correcto. En caso único es obligatorio mostrar todos los puntos individuales continuos a lo largo de las sesiones, no promedios agregados ni barras resumidas.",
+        "correct": "¡Correcto! Representando cada observación individual con su punto en el tiempo (eje X: sesiones/días; eje Y: conducta), separando las fases con líneas verticales divisorias.",
+        "incorrect": "No es correcto. En caso único es obligatorio mostrar todos los puntos individuales continuos a lo largo de las sesiones, no promedios agregados ni barras resumidas.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Tate et al. (2016), SCRIBE Statement",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0026",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué es la «fidelidad del tratamiento» (*treatment fidelity*) en una investigación N = 1?",
+      "opciones": [
+        "La verificación sistemática de que la intervención se aplicó exactamente según el protocolo planificado (adherencia e integridad del terapeuta).",
+        "El compromiso ético del paciente de asistir puntualmente a todas las sesiones fijadas.",
+        "La lealtad teórica del equipo hacia una sola escuela epistemológica de la psicología.",
+        "La concordancia entre los manuales diagnósticos DSM-5 y CIE-11."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Evaluar la fidelidad garantiza que los cambios observados en el paciente se deben a la técnica específica prevista y no a desviaciones o improvisaciones del terapeuta.",
+        "incorrecta": "No es correcto. La fidelidad del tratamiento comprueba que la intervención se ejecutó tal como fue diseñada en el protocolo de investigación.",
+        "correct": "¡Exacto! La verificación sistemática de que la intervención se aplicó exactamente según el protocolo planificado (adherencia e integridad del terapeuta).",
+        "incorrect": "No es correcto. La fidelidad del tratamiento comprueba que la intervención se ejecutó tal como fue diseñada en el protocolo de investigación.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Tate et al. (2016)",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0027",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la diferencia estructural entre un diseño de criterio cambiante y un diseño de línea base múltiple?",
+      "opciones": [
+        "El criterio cambiante aplica subfases con metas progresivas sobre una sola conducta en una persona; la línea base múltiple escalona la intervención entre diferentes conductas, contextos o personas.",
+        "El criterio cambiante requiere retirar el tratamiento en cada fase; la línea base múltiple nunca retira el tratamiento.",
+        "El criterio cambiante solo se utiliza con animales y la línea base múltiple con seres humanos.",
+        "No existe diferencia; son dos denominaciones comerciales para el mismo protocolo de Skinner."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! El criterio cambiante evalúa una sola conducta que avanza por etapas de exigencia creciente; la línea base múltiple evalúa varias series independientes en paralelo.",
+        "incorrecta": "No es correcto. El criterio cambiante ajusta metas cuantitativas sucesivas sobre una sola serie; la línea base múltiple interviene sucesivamente sobre múltiples series.",
+        "correct": "¡Correcto! El criterio cambiante aplica subfases con metas progresivas sobre una sola conducta en una persona; la línea base múltiple escalona la intervención entre diferentes conductas, contextos o personas.",
+        "incorrect": "No es correcto. El criterio cambiante ajusta metas cuantitativas sucesivas sobre una sola serie; la línea base múltiple interviene sucesivamente sobre múltiples series.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 6",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0028",
+      "tipo": "opcion_multiple",
+      "enunciado": "En un diseño de tratamientos alternantes (*alternating treatments design*), ¿qué amenaza se genera si los efectos de un tratamiento persisten e influyen en la sesión del otro?",
+      "opciones": [
+        "Efecto de arrastre (*carryover effect*) o interferencia de tratamientos múltiples.",
+        "Regresión hacia la media provocada por el observador.",
+        "Sensibilización selectiva de la prueba psicométrica.",
+        "Pérdida de la validez ecológica por muestreo intencional."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Al alternar rápidamente dos intervenciones en el mismo sujeto, el efecto residual de la técnica A puede contaminar el rendimiento medido bajo la técnica B.",
+        "incorrecta": "No es correcto. La interferencia de tratamientos múltiples o efecto de arrastre ocurre cuando la influencia de una condición se extiende a la condición vecina.",
+        "correct": "¡Exacto! Efecto de arrastre (*carryover effect*) o interferencia de tratamientos múltiples.",
+        "incorrect": "No es correcto. La interferencia de tratamientos múltiples o efecto de arrastre ocurre cuando la influencia de una condición se extiende a la condición vecina.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 8",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0029",
+      "tipo": "opcion_multiple",
+      "enunciado": "Un investigador observa que el cambio en la conducta no ocurre de inmediato al iniciar la fase B, sino diez días después. ¿Qué criterio visual se debilita en este escenario?",
+      "opciones": [
+        "La latencia del cambio: una latencia larga debilita la atribución causal porque aumenta la probabilidad de que eventos históricos concurrentes hayan causado la mejoría.",
+        "El cambio de pendiente, que siempre debe ser idéntico a cero.",
+        "La tasa de atrición entre las fases experimentales.",
+        "El acuerdo interobservadores, que queda anulado ante latencias mayores a 48 horas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Una latencia extensa entre el inicio de X y el cambio conductual hace sospechar que el sujeto mejoró por otros factores ocurridos durante esos diez días.",
+        "incorrecta": "No es correcto. Una latencia larga debilita el control experimental, pues cuanto más tarda en manifestarse el efecto, más tiempo hay para que intervengan hipótesis rivales.",
+        "correct": "¡Correcto! La latencia del cambio: una latencia larga debilita la atribución causal porque aumenta la probabilidad de que eventos históricos concurrentes hayan causado la mejoría.",
+        "incorrect": "No es correcto. Una latencia larga debilita el control experimental, pues cuanto más tarda en manifestarse el efecto, más tiempo hay para que intervengan hipótesis rivales.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "inspeccion_visual",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0030",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué revela una discrepancia donde un estudio N = 1 muestra significación estadística pero los evaluadores clínicos consideran que el paciente no ha mejorado?",
+      "opciones": [
+        "Que pequeñas variaciones repetidas pueden alcanzar significación matemática si hay muchas observaciones, pero carecer de magnitud relevante para la recuperación del paciente.",
+        "Que el software de cálculo estadístico fue configurado incorrectamente.",
+        "Que el paciente cometió deseabilidad social durante el registro observacional.",
+        "Que los diseños de caso único nunca deben someterse a pruebas estadísticas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Con muchas observaciones, cambios mínimos de medio punto pueden dar p < 0,05 sin que ello represente un cambio sustancial en el bienestar clínico del sujeto.",
+        "incorrecta": "No es correcto. La significación estadística solo evalúa que el cambio no es atribuible al azar; no garantiza que la magnitud del cambio tenga impacto clínico real.",
+        "correct": "¡Exacto! Que pequeñas variaciones repetidas pueden alcanzar significación matemática si hay muchas observaciones, pero carecer de magnitud relevante para la recuperación del paciente.",
+        "incorrect": "No es correcto. La significación estadística solo evalúa que el cambio no es atribuible al azar; no garantiza que la magnitud del cambio tenga impacto clínico real.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 2,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 11",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0031",
+      "tipo": "opcion_multiple",
+      "enunciado": "En la evaluación visual de un diseño de caso único, dos jueces independientes analizan la misma gráfica: uno concluye que el tratamiento funcionó y el otro concluye que no hubo efecto. ¿A qué limitación intrínseca de la inspección visual responde esta discrepancia?",
+      "opciones": [
+        "A la baja confiabilidad interjueces de la inspección visual pura cuando los datos presentan variabilidad moderada, tendencias parciales o efectos no masivos.",
+        "A la falta de estandarización del software utilizado para generar los ejes cartesianos.",
+        "A la ausencia de cálculo del coeficiente alfa de consistencia interna en el gráfico.",
+        "A la incompatibilidad entre las directrices de la APA y el modelo de Skinner."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Brillante! Estudios empíricos citados por Kazdin demuestran que la concordancia interjueces en inspección visual es baja ante datos con ruido, justificando el uso de métricas cuantitativas.",
+        "incorrecta": "No es correcto. La crítica central de Kazdin a la inspección visual pura es su inconsistencia interjueces cuando el efecto no es extraordinariamente evidente y limpio.",
+        "correct": "¡Brillante! A la baja confiabilidad interjueces de la inspección visual pura cuando los datos presentan variabilidad moderada, tendencias parciales o efectos no masivos.",
+        "incorrect": "No es correcto. La crítica central de Kazdin a la inspección visual pura es su inconsistencia interjueces cuando el efecto no es extraordinariamente evidente y limpio.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "inspeccion_visual",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0032",
+      "tipo": "opcion_multiple",
+      "enunciado": "En una línea base múltiple entre contextos (hogar vs. colegio), la conducta disruptiva del niño desciende a cero en el hogar al aplicar la intervención, pero aumenta significativamente en el colegio antes de que el colegio reciba el tratamiento. ¿Qué fenómeno psicológico explica este patrón?",
+      "opciones": [
+        "Contraste conductual (*behavioral contrast*): la supresión de la conducta en un entorno reforzante provoca un incremento compensatorio en el entorno no intervenido.",
+        "Regresión estadística espontánea debida al error de medida en el aula escolar.",
+        "Atrición selectiva de los docentes evaluadores del colegio.",
+        "Desmoralización compensatoria generada por el sesgo del experimentador."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Impecable! El contraste conductual ocurre cuando la modificación de la tasa de refuerzo en un contexto altera la frecuencia de la conducta en la dirección opuesta en otro contexto.",
+        "incorrecta": "No es correcto. Se trata de contraste conductual: al inhibirse la conducta en el contexto A, la energía conductual o tasa de respuesta se incrementa en el contexto B no tratado.",
+        "correct": "¡Impecable! Contraste conductual (*behavioral contrast*): la supresión de la conducta en un entorno reforzante provoca un incremento compensatorio en el entorno no intervenido.",
+        "incorrect": "No es correcto. Se trata de contraste conductual: al inhibirse la conducta en el contexto A, la energía conductual o tasa de respuesta se incrementa en el contexto B no tratado.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 5",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0033",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la diferencia conceptual precisa entre un «diseño de retirada» (*withdrawal design*) y un «diseño de reversión» (*reversal design*) en la taxonomía de Kazdin?",
+      "opciones": [
+        "En la retirada simplemente se remueve el tratamiento experimental; en la reversión se aplica la contingencia de refuerzo de forma activa sobre una conducta incompatible o alternativa.",
+        "La retirada se realiza con humanos y la reversión exclusivamente con modelos animales.",
+        "La retirada es un diseño preexperimental y la reversión es un experimento verdadero con R.",
+        "No existe ninguna diferencia; Kazdin utiliza ambos términos como sinónimos indistintos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Rigurosamente, retirar es suspender X (retorno a condiciones de línea base); revertir implica aplicar la intervención sobre una conducta incompatible para forzar el retorno al nivel previo.",
+        "incorrecta": "No es correcto. Kazdin distingue entre retirar X (cesar la intervención) y revertir la contingencia (reforzar activamente la conducta opuesta o incompatible).",
+        "correct": "¡Exacto! En la retirada simplemente se remueve el tratamiento experimental; en la reversión se aplica la contingencia de refuerzo de forma activa sobre una conducta incompatible o alternativa.",
+        "incorrect": "No es correcto. Kazdin distingue entre retirar X (cesar la intervención) y revertir la contingencia (reforzar activamente la conducta opuesta o incompatible).",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "disenos_caso_unico",
+      "lectura_ref": "Kazdin (2011), Single-Case Research Designs, cap. 4",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0034",
+      "tipo": "opcion_multiple",
+      "enunciado": "La métrica NAP (*Nonoverlap of All Pairs*) compara cada punto de la fase de intervención con cada punto de la fase de línea base. ¿A qué estadístico no paramétrico clásico equivale matemáticamente su cálculo?",
+      "opciones": [
+        "Al área bajo la curva ROC y al estadístico U de Mann-Whitney (dividido por el producto de los tamaños de fase).",
+        "Al coeficiente de correlación biserial puntual corregido por atenuación.",
+        "A la prueba de bondad de ajuste chi-cuadrado de Pearson con un grado de libertad.",
+        "Al coeficiente D de Sommer normalizado con pesos asintóticos."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Brillante! El NAP equivale conceptual y matemáticamente a la probabilidad de dominancia estocástica de Mann-Whitney y al área bajo la curva (AUC), brindando propiedades asintóticas conocidas.",
+        "incorrecta": "No es correcto. NAP equivale al área bajo la curva ROC y se deriva directamente del estadístico de suma de rangos U de Mann-Whitney.",
+        "correct": "¡Brillante! Al área bajo la curva ROC y al estadístico U de Mann-Whitney (dividido por el producto de los tamaños de fase).",
+        "incorrect": "No es correcto. NAP equivale al área bajo la curva ROC y se deriva directamente del estadístico de suma de rangos U de Mann-Whitney.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2011), cap. 9; Parker & Vannest (2009)",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0035",
+      "tipo": "opcion_multiple",
+      "enunciado": "Al evaluar significación clínica con la metodología de Jacobson y Truax (1991), se calcula el Índice de Cambio Confiable (RCI). ¿Qué objetivo metodológico persigue este cálculo?",
+      "opciones": [
+        "Determinar si la magnitud del cambio entre el pre y el post supera el error de medición del instrumento psicométrico con un nivel de confianza del 95 %.",
+        "Comprobar si el sujeto puede ser diagnosticado como libre de patología según el manual DSM.",
+        "Ajustar la curva de regresión lineal para eliminar la autocorrelación serial de primer orden.",
+        "Estimar cuántas sesiones clínicas adicionales necesita el paciente para recibir el alta médica."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Impecable! El RCI divide el cambio observado por el error estándar de la diferencia; si RCI > 1,96, se descarta que el cambio obedezca a simple error de medida del test.",
+        "incorrecta": "No es correcto. El RCI de Jacobson y Truax garantiza que la mejoría supere el margen de fluctuación esperable por error aleatorio de medición del instrumento.",
+        "correct": "¡Impecable! Determinar si la magnitud del cambio entre el pre y el post supera el error de medición del instrumento psicométrico con un nivel de confianza del 95 %.",
+        "incorrect": "No es correcto. El RCI de Jacobson y Truax garantiza que la mejoría supere el margen de fluctuación esperable por error aleatorio de medición del instrumento.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Jacobson & Truax (1991)",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0036",
+      "tipo": "opcion_multiple",
+      "enunciado": "En una investigación N = 1 sobre insomnio, la línea base muestra una tendencia progresiva de empeoramiento severo (la persona duerme cada noche menos horas). Al aplicar la técnica, la curva se detiene y se mantiene estable en 4 horas de sueño. ¿Cómo se interpreta este hallazgo?",
+      "opciones": [
+        "Representa un efecto terapéutico genuino de detención de una trayectoria adversa, aunque no haya habido cambio de nivel hacia el incremento.",
+        "Demuestra de forma concluyente que la intervención carece de cualquier efectividad clínica.",
+        "Constituye un artefacto de instrumentación generado por la fatiga del participante.",
+        "Invalida la investigación al no presentar datos solapados con el rango normativo."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! Si la proyección predictiva de la línea base era el deterioro continuo, frenar ese deterioro y estabilizar la serie constituye un cambio de tendencia atribuible al tratamiento.",
+        "incorrecta": "No es correcto. En presencia de una tendencia adversa previa, detener el empeoramiento y quebrar la pendiente descendente evidencia control experimental terapéutico.",
+        "correct": "¡Exacto! Representa un efecto terapéutico genuino de detención de una trayectoria adversa, aunque no haya habido cambio de nivel hacia el incremento.",
+        "incorrect": "No es correcto. En presencia de una tendencia adversa previa, detener el empeoramiento y quebrar la pendiente descendente evidencia control experimental terapéutico.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "inspeccion_visual",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0037",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Qué problema metodológico surge al realizar un metaanálisis de estudios de caso único combinando estimaciones calculadas con PND, PEM y Tau-U sin estandarización previa?",
+      "opciones": [
+        "Que cada métrica de no solapamiento cuantifica constructos matemáticos disímiles con escalas no conmensurables y propiedades asintóticas incompatibles.",
+        "Que los comités editoriales rechazan los metaanálisis cuantitativos que incluyan más de cinco autores.",
+        "Que el software RevMan prohíbe el ingreso de datos que no provengan de estudios de doble ciego.",
+        "Que las pruebas de heterogeneidad Q de Cochran solo son válidas para variables dicotómicas."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! PND, PEM y Tau-U no son directamente comparables ni promediables: tienen sensibilidades divergentes al error de medida, valores atípicos y tendencias basales.",
+        "incorrecta": "No es correcto. Las métricas de no solapamiento no son conmensurables entre sí: promediar PND con Tau-U equivale a mezclar escalas estadísticas incompatibles.",
+        "correct": "¡Correcto! Que cada métrica de no solapamiento cuantifica constructos matemáticos disímiles con escalas no conmensurables y propiedades asintóticas incompatibles.",
+        "incorrect": "No es correcto. Las métricas de no solapamiento no son conmensurables entre sí: promediar PND con Tau-U equivale a mezclar escalas estadísticas incompatibles.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2011), cap. 9; Shadish et al. (2014)",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0038",
+      "tipo": "opcion_multiple",
+      "enunciado": "En el modelo de regresión segmentada para series temporales de caso único (Huitema y McKean), ¿qué dos coeficientes representan el impacto de la intervención en la fase B?",
+      "opciones": [
+        "El cambio inmediato en el nivel (salto en el intercepto) y el cambio en la pendiente (diferencia en la tasa de cambio temporal entre fases).",
+        "El coeficiente de correlación intraclase y la varianza residual del modelo.",
+        "El tamaño muestral planificado y la tasa de atrición observada.",
+        "El punto de corte de la escala y el error estándar de medida del instrumento."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Exacto! La regresión segmentada modela dos parámetros clave: β₂ (cambio de nivel en el punto de intervención) y β₃ (cambio en la pendiente o tendencia a lo largo de la fase B).",
+        "incorrecta": "No es correcto. El impacto se modela matemáticamente a través de dos parámetros: el cambio abrupto en el nivel (intercepto) y la alteración en la pendiente temporal.",
+        "correct": "¡Exacto! El cambio inmediato en el nivel (salto en el intercepto) y el cambio en la pendiente (diferencia en la tasa de cambio temporal entre fases).",
+        "incorrect": "No es correcto. El impacto se modela matemáticamente a través de dos parámetros: el cambio abrupto en el nivel (intercepto) y la alteración en la pendiente temporal.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2011), cap. 9; Shadish et al. (2002), cap. 6",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0039",
+      "tipo": "opcion_multiple",
+      "enunciado": "Si una serie temporal en N = 1 presenta una fuerte componente cíclica (por ejemplo, fluctuaciones sistemáticas entre días hábiles y fines de semana), ¿qué problema genera para la inspección visual pura?",
+      "opciones": [
+        "Puede simular falsos cambios de nivel o atribuir erróneamente a la intervención mejorías que son en realidad picos regulares del ciclo natural.",
+        "Obliga a suspender la intervención de forma inmediata por riesgo clínico.",
+        "Elimina la posibilidad de registrar la conducta mediante observación directa.",
+        "Convierte el diseño de caso único en una investigación fenomenológica cualitativa."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Correcto! Los patrones estacionales o cíclicos periódicos confunden al ojo humano: un cambio de fase que coincide con el ciclo semanal puede simular un efecto terapéutico inexistente.",
+        "incorrecta": "No es correcto. La ciclicidad estacional engaña la inspección visual al confundir las fluctuaciones naturales periódicas con efectos del tratamiento.",
+        "correct": "¡Correcto! Puede simular falsos cambios de nivel o atribuir erróneamente a la intervención mejorías que son en realidad picos regulares del ciclo natural.",
+        "incorrect": "No es correcto. La ciclicidad estacional engaña la inspección visual al confundir las fluctuaciones naturales periódicas con efectos del tratamiento.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "inspeccion_visual",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 7",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    },
+    {
+      "id": "u06-0040",
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál es la principal objeción de Alan Kazdin frente a la postura radical de algunos conductistas aplicados que rechazan tajantemente cualquier análisis estadístico en caso único?",
+      "opciones": [
+        "Que la inspección visual es insensible a efectos terapéuticos moderados pero clínicamente valiosos, tiene baja consistencia interevaluadores y se ve sesgada por la autocorrelación serial.",
+        "Que los programas de análisis estadístico son obligatorios para obtener registro ante los ministerios de salud.",
+        "Que los pacientes prefieren recibir gráficos con coeficientes de correlación impresos.",
+        "Que la inspección visual viola las normas deontológicas del ejercicio profesional de la psicología."
+      ],
+      "correcta": 0,
+      "feedback": {
+        "correcta": "¡Brillante! Kazdin demuestra que descartar la estadística priva a la ciencia de detectar efectos de magnitud moderada y somete las conclusiones a la subjetividad del juicio visual.",
+        "incorrecta": "No es correcto. Kazdin argumenta que la inspección visual por sí sola descarta intervenciones prometedoras de efecto sutil y adolece de escasa confiabilidad ante series con autocorrelación.",
+        "correct": "¡Brillante! Que la inspección visual es insensible a efectos terapéuticos moderados pero clínicamente valiosos, tiene baja consistencia interevaluadores y se ve sesgada por la autocorrelación serial.",
+        "incorrect": "No es correcto. Kazdin argumenta que la inspección visual por sí sola descarta intervenciones prometedoras de efecto sutil y adolece de escasa confiabilidad ante series con autocorrelación.",
+        "origen": "borrador_ia"
+      },
+      "dificultad": 3,
+      "subtema": "evaluacion_datos_n1",
+      "lectura_ref": "Kazdin (2016), cap. 8; Kazdin (2011), cap. 9",
+      "estado": "revisar",
+      "origen": "borrador_ia",
+      "nota_revision": "",
+      "modulo": "u06"
+    }
+  ]
 }
